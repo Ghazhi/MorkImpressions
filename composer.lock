@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bc22d224d650d8f68c2a6394582f969",
+    "content-hash": "26d8c8aaf75bf1c9226d724562bd57ab",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2084,6 +2084,65 @@
                 "source": "https://github.com/nette/utils/tree/v3.2.7"
             },
             "time": "2022-01-24T11:29:14+00:00"
+        },
+        {
+            "name": "nicolafranchini/venobox",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicolafranchini/VenoBox.git",
+                "reference": "1178b2b7687d53f3262992f0713c377ae050cf52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicolafranchini/VenoBox/zipball/1178b2b7687d53f3262992f0713c377ae050cf52",
+                "reference": "1178b2b7687d53f3262992f0713c377ae050cf52",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "dist/venobox.min.js"
+                    ],
+                    "styles": [
+                        "dist/venobox.min.css"
+                    ],
+                    "files": [
+                        "dist/venobox.min.js",
+                        "dist/venobox.min.css"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Franchini",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Responsive JavaScript modal window plugin, touch swipe gallery",
+            "keywords": [
+                "gallery",
+                "lightbox",
+                "modal",
+                "no-jquery",
+                "plugin",
+                "popup",
+                "responsive",
+                "swipe",
+                "touch",
+                "vanilla",
+                "window"
+            ],
+            "support": {
+                "issues": "https://github.com/nicolafranchini/VenoBox/issues",
+                "source": "https://github.com/nicolafranchini/VenoBox/releases"
+            },
+            "time": "2021-12-16T16:26:31+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -7760,5 +7819,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.0.0"
 }

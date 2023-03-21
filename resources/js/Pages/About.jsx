@@ -94,13 +94,13 @@ export default function About() {
                 {/*==================================================*/}
                 <div className="team-section">
                     <div className="container">
-                        <div className="row">
+                        <div className="row team-bg">
                             <div className="col-lg-12">
                                 <div className="print_shop-section-title text-center">
-                                    <h5> OUR TEAM MEMBER </h5>
+                                    <h5> OUR TEAM  </h5>
                                     <h1>
                                         {" "}
-                                        Creative Team <span> Member </span>{" "}
+                                        Creative Team <span> Members </span>{" "}
                                     </h1>
                                     <p>
                                         {" "}
@@ -110,6 +110,22 @@ export default function About() {
                                     </p>
                                 </div>
                             </div>
+                            {/* service shape */}
+                            <div className="service-shape bounce-animate3">
+                                <img src="template/assets/images/slider/cross2.png" alt="" />
+                            </div>
+                            <div className="service-shape2 dance2">
+                                <img src="template/assets/images/slider/ball1.png" alt="" />
+                            </div>
+                            <div className="service-shape3 bounce-animate">
+                                <img src="template/assets/images/slider/cross1.png" alt="" />
+                            </div>
+                            <div className="service-shape4 bounce-animate">
+                                <img src="template/assets/images/resource/ball1.png" alt="" />
+                            </div>
+                            <div className="service-shape5 bounce-animate4">
+                                <img src="template/assets/images/resource/ball2.png" alt="" />
+                            </div>
                         </div>
                         <div className="row">
                             <div className="col-lg-3 col-md-6">
@@ -117,7 +133,7 @@ export default function About() {
                                     <div className="team-box-inner">
                                         {/* team thumb */}
                                         <div className="team-thumb">
-                                            <img src="template/assets/images/resource/team1.png" alt="" />
+                                            <img src="template/assets/images/resource/" alt="" />
                                         </div>
                                         {/* team content */}
                                         <div className="team-content white">
@@ -163,7 +179,7 @@ export default function About() {
                                     <div className="team-box-inner">
                                         {/* team thumb */}
                                         <div className="team-thumb">
-                                            <img src="template/assets/images/resource/team2.png" alt="" />
+                                            <img src="template/assets/images/resource/" alt="" />
                                         </div>
                                         {/* team content */}
                                         <div className="team-content white">
@@ -209,7 +225,7 @@ export default function About() {
                                     <div className="team-box-inner">
                                         {/* team thumb */}
                                         <div className="team-thumb">
-                                            <img src="template/assets/images/resource/team3.png" alt="" />
+                                            <img src="template/assets/images/resource/" alt="" />
                                         </div>
                                         {/* team content */}
                                         <div className="team-content white">
@@ -255,7 +271,7 @@ export default function About() {
                                     <div className="team-box-inner">
                                         {/* team thumb */}
                                         <div className="team-thumb">
-                                            <img src="template/assets/images/resource/team4.png" alt="" />
+                                            <img src="template/assets/images/resource/" alt="" />
                                         </div>
                                         {/* team content */}
                                         <div className="team-content white">
@@ -299,118 +315,21 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+
                 {/*==================================================*/}
                 {/* End print shop Team Section */}
                 {/*==================================================*/}
                 {/*==================================================*/}
                 {/* Start print shop Faq Section  */}
                 {/*==================================================*/}
-                <div className="faq-section">
-                    <div className="container">
-                        <div className="row faq-bg align-items-center">
-                            <div className="col-lg-6 col-md-6 pr-50">
-                                <div className="print_shop-section-title">
-                                    <h5> HAVE ANY QUESTION </h5>
-                                    <h1>
-                                        {" "}
-                                        Frequently Ask <span>Questions</span>{" "}
-                                    </h1>
-                                    <p>
-                                        {" "}
-                                        Professionally pursue economically services resource sucking poten
-                                        leader sound services resource sucking potentialitie quality.{" "}
-                                    </p>
-                                </div>
-                                {/* Start Accordion */}
-                                <div className="tab_container">
-                                    <div id="tab1" className="tab_content">
-                                        <ul className="accordion">
-                                            <li>
-                                                <a>
-                                                    <span> How can I get the course certificate? </span>
-                                                </a>
-                                                <p>
-                                                    Quis ipsum gravida accumsan lacus facilisis dolore magna
-                                                    aliqua your lacus dolor amet consectetur adipiscing elitd
-                                                    quis ipsu gravid printing dolore magna aliqua lacus dolor
-                                                    sit amet.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <span> Can I buy a course individually? </span>
-                                                </a>
-                                                <p>
-                                                    Quis ipsum gravida accumsan lacus facilisis dolore magna
-                                                    aliqua your lacus dolor amet consectetur adipiscing elitd
-                                                    quis ipsu gravid printing dolore magna aliqua lacus dolor
-                                                    sit amet.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <span> Can I pay via multiple payment gateways? </span>
-                                                </a>
-                                                <p>
-                                                    Quis ipsum gravida accumsan lacus facilisis dolore magna
-                                                    aliqua your lacus dolor amet consectetur adipiscing elitd
-                                                    quis ipsu gravid printing dolore magna aliqua lacus dolor
-                                                    sit amet.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <a>
-                                                    <span> How can I cancel my subscription plan? </span>
-                                                </a>
-                                                <p>
-                                                    Quis ipsum gravida accumsan lacus facilisis dolore magna
-                                                    aliqua your lacus dolor amet consectetur adipiscing elitd
-                                                    quis ipsu gravid printing dolore magna aliqua lacus dolor
-                                                    sit amet.
-                                                </p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                {/* End Accordion */}
-                            </div>
-                            <div className="col-lg-6 col-md-6 pl-40">
-                                <div className="faq-thumb">
-                                    <img src="template/assets/images/resource/faq2.png" alt="" />
-                                </div>
-                            </div>
-                            {/* faq shape */}
-                            <div className="faq-shape bounce-animate">
-                                <img src="template/assets/images/resource/ball2.png" alt="" />
-                            </div>
-                            <div className="faq-shape2 bounce-animate2">
-                                <img src="template/assets/images/slider/ball2.png" alt="" />
-                            </div>
-                            <div className="faq-shape3 bounce-animate3">
-                                <img src="template/assets/images/slider/cross1.png" alt="" />
-                            </div>
-                            <div className="faq-shape4 bounce-animate4">
-                                <img src="template/assets/images/slider/ball2.png" alt="" />
-                            </div>
-                            <div className="faq-shape5 bounce-animate5">
-                                <img src="template/assets/images/slider/cross2.png" alt="" />
-                            </div>
-                            <div className="faq-shape6">
-                                <img src="template/assets/images/resource/dots.png" alt="" />
-                            </div>
-                            <div className="faq-shape7 bounce-animate">
-                                <img src="template/assets/images/resource/ball2.png" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 {/*==================================================*/}
                 {/* End print shop Faq Section */}
                 {/*==================================================*/}
                 {/*==================================================*/}
                 {/* Start print shop Demand Section  */}
                 {/*==================================================*/}
-                <div className="demand-section upp">
+                <div className="demand-section upp" style={{paddingTop:"21rem"}}>
                     <div className="container">
                         <div className="row demand-bg">
                             <div className="col-lg-12">

@@ -2,8 +2,46 @@ import React from "react";
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
+import { useKeenSlider } from "keen-slider/react"
+import "keen-slider/keen-slider.min.css"
+// import "./styles.css"
 
 function Welcome() {
+  const [sliderRef] = useKeenSlider(
+    {
+      loop: true,
+    },
+    [
+      (slider) => {
+        let timeout
+        let mouseOver = false
+        function clearNextTimeout() {
+          clearTimeout(timeout)
+        }
+        function nextTimeout() {
+          clearTimeout(timeout)
+          if (mouseOver) return
+          timeout = setTimeout(() => {
+            slider.next()
+          }, 2000)
+        }
+        slider.on("created", () => {
+          slider.container.addEventListener("mouseover", () => {
+            mouseOver = true
+            clearNextTimeout()
+          })
+          slider.container.addEventListener("mouseout", () => {
+            mouseOver = false
+            nextTimeout()
+          })
+          nextTimeout()
+        })
+        slider.on("dragStarted", clearNextTimeout)
+        slider.on("animationEnded", nextTimeout)
+        slider.on("updated", nextTimeout)
+      },
+    ]
+  )
   return (
     <>
       {/* loder */}
@@ -14,75 +52,139 @@ function Welcome() {
       </div> */}
 
       <Nav />
-
-
-      {/*==================================================*/}
-      {/* Start print shop hero section */}
-      {/*==================================================*/}
-      <div className="hero-section hero2 d-flex align-items-center">
-        <div className="container">
-          <div className="row hero-bg align-items-center">
-            <div className="col-lg-12">
-              <div className="hero-content">
-                <h5> DIGITAL PRINTING COMPANY </h5>
-                <h1> Quality Pixel Perfect </h1>
-                <h1> Printing Company </h1>
-                <p>
-                  {" "}
-                  Fast print, flyer, and pamphlet printing organization please
-                  digital printing company Printing for what’s to come. What’s more,
-                  we do printing quality pixel perfect.{" "}
-                </p>
-              </div>
-              {/* hero button */}
-              <div className="hero-button">
-                <a href="#">
-                  {" "}
-                  Contact Us <i className="bi bi-arrow-right" />{" "}
-                </a>
-              </div>
-              {/* video icon */}
-              <div className="video-icon2">
-                <a
-                  className="video-vemo-icon venobox vbox-item"
-                  data-vbtype="youtube"
-                  data-autoplay="true"
-                  href="https://youtu.be/BS4TUd7FJSg"
-                >
-                  <i className="bi bi-play-fill" />
-                </a>
-              </div>
-            </div>
-            {/* slider shape */}
-            <div className="hero-shape">
-              <div className="hero-shape-thumb bounce-animate">
-                {/* <img src="template/assets/images/slider/ball2.png" alt="" /> */}
-              </div>
-              <div className="hero-shape-thumb2 dance">
-                {/* <img src="template/assets/images/resource/ball2.png" alt="" /> */}
-              </div>
-              <div className="hero-shape-thumb3 bounce-animate2">
-                {/* <img src="template/assets/images/slider/cross1.png" alt="" /> */}
-              </div>
-              <div className="hero-shape-thumb4 bounce-animate3">
-                {/* <img src="template/assets/images/slider/cross2.png" alt="" /> */}
-              </div>
-              <div className="hero-shape-thumb5 bounce-animate4">
-                <img src="template/assets/images/slider/hero-shape.png" alt="" />
-              </div>
-              <div className="hero-shape-thumb6 dance2">
-                <img src="template/assets/images/slider/hero-shape2.png" alt="" />
-                {/* shape title */}
-                <div className="shape-title">
-                  <h2 className="">Mork Impressions </h2>
-                  {/* <h3>Company</h3> */}
+      <div ref={sliderRef} className="keen-slider">
+        <div className="keen-slider__slide number-slide1">
+          <div className="hero-section hero2 d-flex align-items-center" style={{ height: "40rem" }}>
+            <div className="container">
+              <div className="row hero-bg align-items-center">
+                <div className="col-lg-12">
+                  <div className="hero-content">
+                    <h5> DIGITAL PRINTING COMPANY </h5>
+                    <h1> Quality Pixel Perfect </h1>
+                    <h1> Printing Company </h1>
+                    <p>
+                      {" "}
+                      Fast print, flyer, and pamphlet printing organization please
+                      digital printing company Printing for what’s to come. What’s more,
+                      we do printing quality pixel perfect.{" "}
+                    </p>
+                  </div>
+                  {/* hero button */}
+                  <div className="hero-button">
+                    <a href="#">
+                      {" "}
+                      Contact Us <i className="bi bi-arrow-right" />{" "}
+                    </a>
+                  </div>
+                  {/* video icon */}
+                  <div className="video-icon2">
+                    <a
+                      className="video-vemo-icon venobox vbox-item"
+                      data-vbtype="youtube"
+                      data-autoplay="true"
+                      href="https://youtu.be/BS4TUd7FJSg"
+                    >
+                      <i className="bi bi-play-fill" />
+                    </a>
+                  </div>
+                </div>
+                {/* slider shape */}
+                <div className="hero-shape">
+                  <div className="hero-shape-thumb bounce-animate">
+                    {/* <img src="template/assets/images/slider/ball2.png" alt="" /> */}
+                  </div>
+                  <div className="hero-shape-thumb2 dance">
+                    {/* <img src="template/assets/images/resource/ball2.png" alt="" /> */}
+                  </div>
+                  <div className="hero-shape-thumb3 bounce-animate2">
+                    {/* <img src="template/assets/images/slider/cross1.png" alt="" /> */}
+                  </div>
+                  <div className="hero-shape-thumb4 bounce-animate3">
+                    {/* <img src="template/assets/images/slider/cross2.png" alt="" /> */}
+                  </div>
+                  <div className="hero-shape-thumb5 bounce-animate4">
+                    <img src="template/assets/images/slider/hero-shape.png" alt="" />
+                  </div>
+                  <div className="hero-shape-thumb6 dance2">
+                    <img src="template/assets/images/slider/hero-shape2.png" alt="" />
+                    {/* shape title */}
+                    <div className="shape-title">
+                      <h2 className="">Mork Impressions </h2>
+                      {/* <h3>Company</h3> */}
+                    </div>
+                  </div>
+                  {/* shape End */}
                 </div>
               </div>
-              {/* shape End */}
+            </div>
+          </div>
+        </div>
+        {/* second slide */}
+        <div className="keen-slider__slide number-slide2">
+          <div className="custom-hero-section custom-hero2 d-flex align-items-center" style={{height:"40rem"}}>
+            <div className="container">
+              <div className="row custom-hero-bg align-items-center">
+                <div className="col-lg-12">
+                  <div className="custom-hero-content">
+                    <h5> DIGITAL PRINTING COMPANY </h5>
+                    <h1> Quality Pixel Perfect </h1>
+                    <h1> Printing Company </h1>
+                    <p>
+                      {" "}
+                      Fast print, flyer, and pamphlet printing organization please
+                      digital printing company Printing for what’s to come. What’s more,
+                      we do printing quality pixel perfect.{" "}
+                    </p>
+                  </div>
+                  {/* hero button */}
+                  <div className="hero-button">
+                    <a href="#">
+                      {" "}
+                      Contact Us <i className="bi bi-arrow-right" />{" "}
+                    </a>
+                  </div>
+                  {/* video icon */}
+                  <div className="video-icon2">
+                    <a
+                      className="video-vemo-icon venobox vbox-item"
+                      data-vbtype="youtube"
+                      data-autoplay="true"
+                      href="https://youtu.be/BS4TUd7FJSg"
+                    >
+                      <i className="bi bi-play-fill" />
+                    </a>
+                  </div>
+                </div>
+                {/* slider shape */}
+                <div className="hero-shape">
+                  <div className="hero-shape-thumb bounce-animate">
+                    <img src="template/assets/images/slider/ball2.png" alt="" />
+                  </div>
+                  <div className="hero-shape-thumb2 dance">
+                    <img src="template/assets/images/resource/ball2.png" alt="" />
+                  </div>
+                  <div className="hero-shape-thumb3 bounce-animate2">
+                    <img src="template/assets/images/slider/cross1.png" alt="" />
+                  </div>
+                  <div className="hero-shape-thumb6 dance2">
+                    <img src="template/assets/images/slider/hero-shape2.png" alt="" />
+                    <div className="custom-shape-title" >
+                      <h2 className="">Mork Impressions </h2>
+                    </div>
+                    {/* shape title */}
+                  </div>
+                  {/* shape End */}
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/*==================================================*/}
+      {/* Start print shop hero section */}
+      {/*==================================================*/}
+
       {/*==================================================*/}
       {/*End print shop hero Section  */}
       {/*==================================================*/}
@@ -101,7 +203,7 @@ function Welcome() {
                 </h1>
                 <p>
                   {" "}
-                  Mork Impression is a printing press incorporated in Ghana, with a state of the art offset printing 
+                  Mork Impression is a printing press incorporated in Ghana, with a state of the art offset printing
                   machines.
                 </p>
               </div>
@@ -138,15 +240,15 @@ function Welcome() {
               <div className="row align-items-center abouts">
                 <div className="col-lg-6 col-md-6">
                   <div className="thumb-items">
-                    <img src="template/assets/images/resource/about1.png" alt="" />
+                    <img src="template/assets/images/mork/mag.jpg" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6">
                   <div className="thumb-items">
-                    <img src="template/assets/images/resource/about-2.png" alt="" />
+                    <img src="template/assets/images/mork/paper.jpg" alt="" />
                   </div>
                   <div className="thumb-items">
-                    <img src="template/assets/images/resource/about-3.png" alt="" />
+                    <img src="template/assets/images/mork/poster.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -209,15 +311,6 @@ function Welcome() {
                   your company needs{" "}
                 </p>
               </div>
-              <div className="print-shop-artist">
-                {/* Artist name */}
-                <div className="artist-name">
-                  <h5>Md. Al- Amin Hossain</h5>
-                </div>
-                <div className="artist-categories">
-                  <p>Senior Artist Designer</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -268,7 +361,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/resource/largeFormat.jpg" alt="" />
+                  <img src="template/assets/images/mork/bg1.jpg" alt="" />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -294,7 +387,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/resource/industrialPrinting.jpg" alt="" />
+                  <img src="template/assets/images/mork/ip.jpg" alt="" />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -320,7 +413,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/resource/industrialPrinting.jpg" alt="" />
+                  <img src="template/assets/images/mork/bg2.jpg" alt="" />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -346,7 +439,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/resource/digitalColorPress.jpg" alt="" />
+                  <img src="template/assets/images/mork/color.jpg" alt="" />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -382,10 +475,10 @@ function Welcome() {
           <div className="row">
             <div className="col-lg-12">
               <div className="print_shop-section-title text-center">
-                <h5> CASE STUDIES </h5>
+                <h5> Portofolio </h5>
                 <h1>
                   {" "}
-                  How Dose We <span> Works </span>{" "}
+                  Sample<span> Works </span>{" "}
                 </h1>
                 <p>
                   {" "}
@@ -403,7 +496,7 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="shop.html"> T- Shirt Design Service </a>
+                    <a href="/portfolio"> View More </a>
                   </h5>
                   <a href="shop.html">
                     <i className="bi bi-arrow-right" />
@@ -415,7 +508,7 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="shop.html"> Shoping mug </a>
+                    <a href="/portfolio"> View More </a>
                   </h5>
                   <a href="shop.html">
                     <i className="bi bi-arrow-right" />
@@ -427,9 +520,9 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="shop.html"> Printing Service </a>
+                    <a href="/portfolio"> View More </a>
                   </h5>
-                  <a href="shop.html">
+                  <a href="/portfolio"> View More 
                     <i className="bi bi-arrow-right" />
                   </a>
                 </div>
@@ -439,9 +532,9 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="shop.html"> Silk-screen printing </a>
+                  <a href="/portfolio"> View More </a>
                   </h5>
-                  <a href="shop.html">
+                <a href="/portfolio"> View More 
                     <i className="bi bi-arrow-right" />
                   </a>
                 </div>
@@ -526,8 +619,8 @@ function Welcome() {
               {/* End Accordion */}
             </div>
             <div className="col-lg-6 col-md-6 pl-40">
-              <div className="faq-thumb">
-                <img src="template/assets/images/resource/faq2.png" alt="" />
+              <div className="faq-thumb" >
+                <img src="template/assets/images/resource/post4.png"style={{height:"35rem",width:"100%"}} alt="" />
               </div>
             </div>
             {/* faq shape */}
@@ -600,241 +693,66 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop Team Section  */}
       {/*==================================================*/}
-      <div className="team-section">
-        <div className="container">
-          <div className="row team-bg">
-            <div className="col-lg-12">
-              <div className="print_shop-section-title text-center">
-                <h5> OUR TEAM MEMBER </h5>
-                <h1>
-                  {" "}
-                  Creative Team <span> Member </span>{" "}
-                </h1>
-                <p>
-                  {" "}
-                  Professionally pursue economically sound services resource sucking
-                  potentialities morph with premier catalysts for change awesome
-                  services you.{" "}
-                </p>
-              </div>
-            </div>
-            {/* service shape */}
-            <div className="service-shape bounce-animate3">
-              <img src="template/assets/images/slider/cross2.png" alt="" />
-            </div>
-            <div className="service-shape2 dance2">
-              <img src="template/assets/images/slider/ball1.png" alt="" />
-            </div>
-            <div className="service-shape3 bounce-animate">
-              <img src="template/assets/images/slider/cross1.png" alt="" />
-            </div>
-            <div className="service-shape4 bounce-animate">
-              <img src="template/assets/images/resource/ball1.png" alt="" />
-            </div>
-            <div className="service-shape5 bounce-animate4">
-              <img src="template/assets/images/resource/ball2.png" alt="" />
+
+      
+      {/* partners */}
+      <div className="" style={{paddingTop:"10rem"}}>
+        <div className="">
+          <h2 className="text-center " style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+            Our <span>Partners</span>
+          </h2>
+        </div>
+        <div className="row text-center" style={{ justifyContent: "center" }}>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="single-team-box">
-                <div className="team-box-inner">
-                  {/* team thumb */}
-                  <div className="team-thumb">
-                    <img src="template/assets/images/resource/team1.png" alt="" />
-                  </div>
-                  {/* team content */}
-                  <div className="team-content white">
-                    {/* team title */}
-                    <div className="team-title">
-                      <h4>Ms. Jahanara Alam</h4>
-                    </div>
-                    {/* team text */}
-                    <div className="team-text">
-                      <p> Project Manager </p>
-                    </div>
-                    {/* team social list */}
-                    <div className="team-social-list">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-pinterest-p" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-team-box">
-                <div className="team-box-inner">
-                  {/* team thumb */}
-                  <div className="team-thumb">
-                    <img src="template/assets/images/resource/team2.png" alt="" />
-                  </div>
-                  {/* team content */}
-                  <div className="team-content white">
-                    {/* team title */}
-                    <div className="team-title">
-                      <h4> Md. Al-Amin Hossain </h4>
-                    </div>
-                    {/* team text */}
-                    <div className="team-text">
-                      <p> Graphic Designer </p>
-                    </div>
-                    {/* team social list */}
-                    <div className="team-social-list">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-pinterest-p" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-team-box">
-                <div className="team-box-inner">
-                  {/* team thumb */}
-                  <div className="team-thumb">
-                    <img src="template/assets/images/resource/team3.png" alt="" />
-                  </div>
-                  {/* team content */}
-                  <div className="team-content white">
-                    {/* team title */}
-                    <div className="team-title">
-                      <h4> Sidratul Muntaha </h4>
-                    </div>
-                    {/* team text */}
-                    <div className="team-text">
-                      <p> Web Developer </p>
-                    </div>
-                    {/* team social list */}
-                    <div className="team-social-list">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-pinterest-p" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-team-box">
-                <div className="team-box-inner">
-                  {/* team thumb */}
-                  <div className="team-thumb">
-                    <img src="template/assets/images/resource/team4.png" alt="" />
-                  </div>
-                  {/* team content */}
-                  <div className="team-content white">
-                    {/* team title */}
-                    <div className="team-title">
-                      <h4>Md. Anowar Hossen </h4>
-                    </div>
-                    {/* team text */}
-                    <div className="team-text">
-                      <p> CEO &amp; Founder </p>
-                    </div>
-                    {/* team social list */}
-                    <div className="team-social-list">
-                      <ul>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-facebook-f" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-twitter" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-linkedin-in" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fab fa-pinterest-p" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
             </div>
           </div>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
+            </div>
+          </div>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
+            </div>
+          </div>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
+            </div>
+          </div>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
+            </div>
+          </div>
+          <div className="col">
+            <div className="p-4">
+              <img src="template/assets/images/logo.png" alt="" />
+            </div>
+          </div>
+         
         </div>
       </div>
       {/*==================================================*/}
       {/* End print shop Team Section */}
       {/*==================================================*/}
       {/*==================================================*/}
-      {/* Start print shop Blog Section  */}
+      {/* Start print package Section  */}
       {/*==================================================*/}
-      <div className="blog-section">
+      <div className="blog-section upp">
         <div className="container">
           <div className="row align-items-center mb-60">
             <div className="col-lg-12">
               <div className="print_shop-section-title text-center">
-                <h5> WE ARE Professional </h5>
+                <h5> WE ARE Professionals </h5>
                 <h1> Choose The Best Package For </h1>
                 <h1>
                   {" "}
@@ -848,20 +766,12 @@ function Welcome() {
               <div className="single-blog-box">
                 {/* blog thumb */}
                 <div className="single-blog-thumb">
-                  <img src="template/assets/images/resource/blog1.png" alt="" />
+                  <img src="template/assets/images/resource/tab1.jpg" alt="" />
                 </div>
                 {/* blog content */}
                 <div className="blog-content">
                   {/* post categories */}
-                  <div className="post-categories">
-                    <p>
-                      <i className="bi bi-person-fill" /> Fred Hyman{" "}
-                      <span className="post">
-                        {" "}
-                        <i className="bi bi-chat-dots-fill" /> Comments{" "}
-                      </span>{" "}
-                    </p>
-                  </div>
+
                   {/* blog title */}
                   <div className="blog-title">
                     <h2>
@@ -886,20 +796,12 @@ function Welcome() {
               <div className="single-blog-box">
                 {/* blog thumb */}
                 <div className="single-blog-thumb">
-                  <img src="template/assets/images/resource/blog2.png" alt="" />
+                  <img src="template/assets/images/resource/tab2.jpg" alt="" />
                 </div>
                 {/* blog content */}
                 <div className="blog-content">
                   {/* post categories */}
-                  <div className="post-categories">
-                    <p>
-                      <i className="bi bi-person-fill" /> Fred Hyman{" "}
-                      <span className="post">
-                        {" "}
-                        <i className="bi bi-chat-dots-fill" /> Comments{" "}
-                      </span>{" "}
-                    </p>
-                  </div>
+
                   {/* blog title */}
                   <div className="blog-title">
                     <h2>
@@ -924,20 +826,12 @@ function Welcome() {
               <div className="single-blog-box">
                 {/* blog thumb */}
                 <div className="single-blog-thumb">
-                  <img src="template/assets/images/resource/blog3.png" alt="" />
+                  <img src="template/assets/images/resource/tab3.jpg" alt="" />
                 </div>
                 {/* blog content */}
                 <div className="blog-content">
                   {/* post categories */}
-                  <div className="post-categories">
-                    <p>
-                      <i className="bi bi-person-fill" /> Fred Hyman{" "}
-                      <span className="post">
-                        {" "}
-                        <i className="bi bi-chat-dots-fill" /> Comments{" "}
-                      </span>{" "}
-                    </p>
-                  </div>
+
                   {/* blog title */}
                   <div className="blog-title">
                     <h2>
@@ -980,7 +874,7 @@ function Welcome() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 " style={{paddingLeft:"5rem"}}>
+            <div className="col-lg-6 col-md-6 " style={{ paddingLeft: "5rem" }}>
               <div className="print_shop-section-title text-center">
                 <h1>
                   {" "}
@@ -1051,8 +945,8 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop Footer Section  */}
       {/*==================================================*/}
-    
-     <Footer />
+
+      <Footer />
 
       {/*==================================================*/}
       {/* Start scrollup section Area */}

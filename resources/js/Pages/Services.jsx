@@ -1,7 +1,20 @@
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
+// modal
+import { useState } from 'react';
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
+
 export default function Services() {
+    const [open1, setOpen1] = useState(false);
+    const [open2, setOpen2] = useState(false);
+    const [open3, setOpen3] = useState(false);
+    const [open4, setOpen4] = useState(false);
+    const [open5, setOpen5] = useState(false);
+    const [open6, setOpen6] = useState(false);
+    const [open7, setOpen7] = useState(false);
+    const [open8, setOpen8] = useState(false);
     return (
 
         <>
@@ -70,12 +83,237 @@ export default function Services() {
                             <img src="template/assets/images/resource/ball2.png" alt="" />
                         </div>
                     </div>
+                    <Modal open={open1} onClose={() => setOpen1(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Growth Strategies</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open2} onClose={() => setOpen2(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open3} onClose={() => setOpen3(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open4} onClose={() => setOpen4(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open5} onClose={() => setOpen5(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open6} onClose={() => setOpen6(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open7} onClose={() => setOpen7(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
+                    <Modal open={open8} onClose={() => setOpen8(false)} center>
+                        <div className="row">
+                            <div className="col ">
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                            </div>
+                            <div className="col">
+                                <div className="csd-content">
+                                    <div className="csd-title pb-10">
+                                        <h2>Title</h2>
+                                    </div>
+                                    <p>
+                                        Whether you are building an enterprise web portal or a state-of-the-art
+                                        website, you always need the right modern tools. Well-builtst and maintained
+                                        PHP frameworks provide those tools maintained PHP frameworks provide those
+                                        tools in abundance, allowing thiatse developers to save time, re-use code,
+                                        and streamlin the back end. As software development tools continuously
+                                        change to follow the latest. Despite the competition from startups and the
+                                        ever-present economic challenges, the banking industry is gradually adopting
+                                        what the latest technologies have to offer. From cloud technology to cyber
+                                        risk management to machine learning thats investment banking, join us as we
+                                        explore the banking industry trends for 2019 and beyond. Cloud is one of the
+                                        industry trends as well.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Modal>
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/largeFormat.jpg" alt="" />
+                         
+                                <div className="service-thumb" onClick={() => setOpen1(true)}>
+                                    <img src="template/assets/images/mork/bg1.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -100,8 +338,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/industrialPrinting.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen2(true)}>
+                                    <img src="template/assets/images/mork/ip.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -126,8 +364,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/industrialPrinting.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen3(true)}>
+                                    <img src="template/assets/images/mork/bg2.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -152,8 +390,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/digitalColorPress.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen4(true)}>
+                                    <img src="template/assets/images/mork/color.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -178,8 +416,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/graphicDesigning.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen5(true)}>
+                                    <img src="template/assets/images/mork/printing.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -204,8 +442,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/colorSeperation.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen6(true)}>
+                                    <img src="template/assets/images/mork/color.jpg" alt="" style={{height:"50%"}} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -230,8 +468,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/service4.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen7(true)}>
+                                    <img src="template/assets/images/mork/mag.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -256,8 +494,8 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb">
-                                    <img src="template/assets/images/resource/service4.jpg" alt="" />
+                                <div className="service-thumb" onClick={() => setOpen8(true)}>
+                                    <img src="template/assets/images/mork/lael.jpg" alt="" />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -293,7 +531,7 @@ export default function Services() {
                     <div className="row align-items-center mb-60">
                         <div className="col-lg-12">
                             <div className="print_shop-section-title text-center">
-                                <h5> WE ARE Professional </h5>
+                                <h5> WE ARE Professionals </h5>
                                 <h1> Choose The Best Package For </h1>
                                 <h1>
                                     {" "}
@@ -312,15 +550,7 @@ export default function Services() {
                                 {/* blog content */}
                                 <div className="blog-content">
                                     {/* post categories */}
-                                    <div className="post-categories">
-                                        <p>
-                                            <i className="bi bi-person-fill" /> Fred Hyman{" "}
-                                            <span className="post">
-                                                {" "}
-                                                <i className="bi bi-chat-dots-fill" /> Comments{" "}
-                                            </span>{" "}
-                                        </p>
-                                    </div>
+                                   
                                     {/* blog title */}
                                     <div className="blog-title">
                                         <h2>
@@ -350,15 +580,7 @@ export default function Services() {
                                 {/* blog content */}
                                 <div className="blog-content">
                                     {/* post categories */}
-                                    <div className="post-categories">
-                                        <p>
-                                            <i className="bi bi-person-fill" /> Fred Hyman{" "}
-                                            <span className="post">
-                                                {" "}
-                                                <i className="bi bi-chat-dots-fill" /> Comments{" "}
-                                            </span>{" "}
-                                        </p>
-                                    </div>
+                                    
                                     {/* blog title */}
                                     <div className="blog-title">
                                         <h2>
@@ -388,15 +610,7 @@ export default function Services() {
                                 {/* blog content */}
                                 <div className="blog-content">
                                     {/* post categories */}
-                                    <div className="post-categories">
-                                        <p>
-                                            <i className="bi bi-person-fill" /> Fred Hyman{" "}
-                                            <span className="post">
-                                                {" "}
-                                                <i className="bi bi-chat-dots-fill" /> Comments{" "}
-                                            </span>{" "}
-                                        </p>
-                                    </div>
+                                   
                                     {/* blog title */}
                                     <div className="blog-title">
                                         <h2>

@@ -305,8 +305,15 @@ nav.print_shop_menu {
 .hero-section {
     height: 904px;
 }
+.custom-hero-section {
+    height: 904px;
+}
 /*hero bg*/
 .row.hero-bg {
+    position: relative;
+    z-index: 1;
+}
+.row.custom-hero-bg {
     position: relative;
     z-index: 1;
 }
@@ -314,6 +321,15 @@ nav.print_shop_menu {
 /*hero content*/
 
 .hero-content h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary);
+    padding: 0 0 7px 11px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.custom-hero-content h5 {
     font-size: 15px;
     font-weight: 500;
     color: var(--primary);
@@ -334,7 +350,23 @@ nav.print_shop_menu {
     border-radius: 3px;
     transition: .5s;
 }
+.custom-hero-content h5:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: -4px;
+    width: 30px;
+    height: 25px;
+    background: var(--primary);
+    opacity: .2;
+    border-radius: 3px;
+    transition: .5s;
+}
 .hero-content h1 {
+    font-size: 55px;
+    line-height: 57px;
+}
+.custom-hero-content h1 {
     font-size: 55px;
     line-height: 57px;
 }
@@ -343,15 +375,39 @@ nav.print_shop_menu {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+.custom-hero-content h1 span {
+    background: linear-gradient( to right, var(--primaryShade), 50%, var(--primary) 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 .hero-content p {
+    padding: 25px 0 27px;
+    width: 86%;
+}
+.custom-hero-content p {
     padding: 25px 0 27px;
     width: 86%;
 }
 .hero-content h5:hover:before{
     width: 105%;
 }
+.custom-hero-content h5:hover:before{
+    width: 105%;
+}
 /*slider button*/
 .hero-button a {
+    padding: 12px 38px;
+    font-weight: 500;
+    color: #fff;
+    background-image: linear-gradient(-86deg, var(--primary) 0%, var(--primaryShade) 100%);
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid var(--primaryShade);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.custom-hero-button a {
     padding: 12px 38px;
     font-weight: 500;
     color: #fff;
@@ -427,7 +483,14 @@ nav.print_shop_menu {
 ================================================**/
 
 .hero-section.hero2 {
-    background: url(assets/images/slider/hero-bg.jpg);
+    background: url(assets/images/mork/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-hero-section.custom-hero2 {
+    background: url(assets/images/mork/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -439,8 +502,18 @@ nav.print_shop_menu {
     line-height: 59px;
     color: #fff;
 }
+.custom-hero2 .custom-hero-content h1 {
+    font-size: 65px;
+    line-height: 59px;
+    color: #fff;
+}
 
 .hero2 .hero-content p {
+    padding: 35px 0 30px;
+    width: 49%;
+    color: #fff;
+}
+.custom-hero2 .custom-hero-content p {
     padding: 35px 0 30px;
     width: 49%;
     color: #fff;
@@ -449,8 +522,23 @@ nav.print_shop_menu {
 .hero2 .hero-content h5 {
     padding: 0 0 27px 11px;
 }
+.custom-hero2 .custom-hero-content h5 {
+    padding: 0 0 27px 11px;
+}
 
 .hero2 .hero-content h5:after {
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 297px;
+    background: #fff;
+    border-radius: 50%;
+    top: -31px;
+    left: -40px;
+    opacity: .5;
+    z-index: -1;
+}
+.custom-hero2 .custom-hero-content h5:after {
     content: "";
     position: absolute;
     height: 80px;
@@ -470,7 +558,16 @@ nav.print_shop_menu {
     display: inline-block;
     padding-right: 27px;
 }
+.custom-hero2 .hero-button {
+    display: inline-block;
+    padding-right: 27px;
+}
 .hero2 .hero-button a {
+    padding: 13px 38px;
+    font-weight: 500;
+    border: 0;
+}
+.custom-hero2 .hero-button a {
     padding: 13px 38px;
     font-weight: 500;
     border: 0;
@@ -480,11 +577,22 @@ nav.print_shop_menu {
 .hero2 .hero-shape-thumb {
     top: -37%;
 }
+.custom-hero2 .custom-hero-shape-thumb {
+    top: -37%;
+}
 .hero2 .hero-shape-thumb2 {
     left: 62%;
     top: 15%;
 }
+.custom-hero2 .custom-hero-shape-thumb2 {
+    left: 62%;
+    top: 15%;
+}
 .hero2 .hero-shape-thumb3 {
+    top: -33%;
+    left: 72%;
+}
+.custom-hero2 .custom-hero-shape-thumb3 {
     top: -33%;
     left: 72%;
 }
@@ -512,7 +620,20 @@ nav.print_shop_menu {
     left: 0;
     right: 0;
 }
+.custom-shape-title {
+    position: absolute;
+    top: 14rem;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
 .shape-title h2 {
+    font-size: 75px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 70px;
+}
+.custom-shape-title h2 {
     font-size: 75px;
     color: #fff;
     font-weight: 700;
