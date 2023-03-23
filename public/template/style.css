@@ -1344,6 +1344,8 @@ nav.print_shop_menu {
 /* Portfolio style two
 ======================================================**/
 
+
+
 .portfolio-serction.style-two {
     padding: 0px 0 130px;
 }
@@ -1361,6 +1363,7 @@ nav.print_shop_menu {
 .item {
     position: relative;
     z-index: 1;
+    padding: 10px;
 }
 .item:nth-child(1) {
     grid-row: 2/4;

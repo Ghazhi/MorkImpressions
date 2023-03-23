@@ -2,11 +2,17 @@ import React from "react";
 import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
+
+import { Inertia } from '@inertiajs/inertia';
+
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 // import "./styles.css"
 
 function Welcome() {
+  Inertia.on('success', (event) => {
+    event.detail.page.url === "/" && window.location.reload()
+  })
   const [sliderRef] = useKeenSlider(
     {
       loop: true,
@@ -636,39 +642,7 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop Brand Section  */}
       {/*==================================================*/}
-      <div className="brand-section">
-        <div className="container">
-          <div className="row">
-            <div className="brand-list owl-carousel">
-              <div className="col-lg-12">
-                <div className="single-brand-thumb">
-                  <img src="template/assets/images/resource/brand1.png" alt="" />
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="single-brand-thumb">
-                  <img src="template/assets/images/resource/brand2.png" alt="" />
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="single-brand-thumb">
-                  <img src="template/assets/images/resource/brand3.png" alt="" />
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="single-brand-thumb">
-                  <img src="template/assets/images/resource/brand4.png" alt="" />
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="single-brand-thumb">
-                  <img src="template/assets/images/resource/brand5.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
       {/*==================================================*/}
       {/* End print shop Brand Section */}
       {/*==================================================*/}
