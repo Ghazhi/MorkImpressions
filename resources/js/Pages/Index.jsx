@@ -77,16 +77,7 @@ function Welcome() {
                     </a>
                   </div>
                   {/* video icon */}
-                  <div className="video-icon2">
-                    <a
-                      className="video-vemo-icon venobox vbox-item"
-                      data-vbtype="youtube"
-                      data-autoplay="true"
-                      href="https://youtu.be/BS4TUd7FJSg"
-                    >
-                      <i className="bi bi-play-fill" />
-                    </a>
-                  </div>
+                 
                 </div>
                 {/* slider shape */}
                 <div className="hero-shape">
@@ -144,16 +135,7 @@ function Welcome() {
                     </a>
                   </div>
                   {/* video icon */}
-                  <div className="video-icon2">
-                    <a
-                      className="video-vemo-icon venobox vbox-item"
-                      data-vbtype="youtube"
-                      data-autoplay="true"
-                      href="https://youtu.be/BS4TUd7FJSg"
-                    >
-                      <i className="bi bi-play-fill" />
-                    </a>
-                  </div>
+                  
                 </div>
                 {/* slider shape */}
                 <div className="hero-shape">
@@ -361,7 +343,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/mork/bg1.jpg" alt="" />
+                  <img src="template/assets/images/mork/bg1.jpg" alt="" style={{ width: "100%", height: "13rem" }} />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -373,7 +355,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content">
+                <div className="service-content" style={{height:"13rem"}}>
                   <h3> Large Format Printing </h3>
                   <p>
                     {" "}
@@ -387,7 +369,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/mork/ip.jpg" alt="" />
+                  <img src="template/assets/images/mork/ip.jpg" alt="" style={{ width: "100%", height: "13rem" }} />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -399,7 +381,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content">
+                <div className="service-content" style={{ height: "13rem" }}>
                   <h3> Industrial & Commercial Print </h3>
                   <p>
                     {" "}
@@ -413,7 +395,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/mork/bg2.jpg" alt="" />
+                  <img src="template/assets/images/mork/bg2.jpg" alt="" style={{ width: "100%", height: "13rem" }} />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -425,7 +407,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content">
+                <div className="service-content" style={{height: "13rem" }}>
                   <h3> Industrial Lamination  </h3>
                   <p>
                     {" "}
@@ -439,7 +421,7 @@ function Welcome() {
               <div className="single-service-box2">
                 {/* service thumb */}
                 <div className="service-thumb">
-                  <img src="template/assets/images/mork/color.jpg" alt="" />
+                  <img src="template/assets/images/mork/color.jpg" alt="" style={{ width: "100%", height: "13rem" }} />
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
@@ -451,7 +433,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content">
+                <div className="service-content" style={{height: "13rem" }}>
                   <h3> Digital Colour Press </h3>
                   <p>
                     {" "}
@@ -696,9 +678,9 @@ function Welcome() {
 
       
       {/* partners */}
-      <div className="" style={{paddingTop:"10rem"}}>
+      <div className="" style={{ paddingBottom:"10rem"}}>
         <div className="">
-          <h2 className="text-center " style={{ paddingTop: "5rem", paddingBottom: "5rem" }}>
+          <h2 className="text-center " style={{ paddingTop: "5rem", paddingBottom: "2rem" }}>
             Our <span>Partners</span>
           </h2>
         </div>
@@ -861,7 +843,7 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop contact Section  */}
       {/*==================================================*/}
-      <div className="contact-section home-two">
+      <div className="contact-section home-two" style={{paddingTop: "5rem"}}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">

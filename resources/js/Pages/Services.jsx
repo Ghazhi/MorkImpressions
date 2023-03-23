@@ -313,7 +313,7 @@ export default function Services() {
                                 {/* service thumb */}
                          
                                 <div className="service-thumb" onClick={() => setOpen1(true)}>
-                                    <img src="template/assets/images/mork/bg1.jpg" alt="" />
+                                    <img src="template/assets/images/mork/bg1.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -325,7 +325,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                            <div className="service-content" style={{height:"13rem"}}>
                                     <h3> Large Format Printing </h3>
                                     <p>
                                         {" "}
@@ -339,7 +339,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen2(true)}>
-                                    <img src="template/assets/images/mork/ip.jpg" alt="" />
+                                    <img src="template/assets/images/mork/ip.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -351,7 +351,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3>Industrial & Commercial Print </h3>
                                     <p>
                                         {" "}
@@ -365,7 +365,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen3(true)}>
-                                    <img src="template/assets/images/mork/bg2.jpg" alt="" />
+                                    <img src="template/assets/images/mork/il.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -377,7 +377,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Industrial Lamination </h3>
                                     <p>
                                         {" "}
@@ -391,9 +391,9 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen4(true)}>
-                                    <img src="template/assets/images/mork/color.jpg" alt="" />
+                                    <img src="template/assets/images/mork/color.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
-                                    <div className="port-content upper">
+                                    <div className="port-content upper" >
                                         <h5>
                                             <a href="#"> Digital Colour Press </a>
                                         </h5>
@@ -403,7 +403,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Digital Colour Press </h3>
                                     <p>
                                         {" "}
@@ -417,7 +417,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen5(true)}>
-                                    <img src="template/assets/images/mork/printing.jpg" alt="" />
+                                    <img src="template/assets/images/mork/mag.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -429,7 +429,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Graphic Designing </h3>
                                     <p>
                                         {" "}
@@ -443,7 +443,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen6(true)}>
-                                    <img src="template/assets/images/mork/color.jpg" alt="" style={{height:"50%"}} />
+                                    <img src="template/assets/images/mork/color.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -455,7 +455,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Colour Separation  </h3>
                                     <p>
                                         {" "}
@@ -469,7 +469,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen7(true)}>
-                                    <img src="template/assets/images/mork/mag.jpg" alt="" />
+                                    <img src="template/assets/images/mork/mag.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -481,7 +481,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Offset Press </h3>
                                     <p>
                                         {" "}
@@ -495,11 +495,11 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen8(true)}>
-                                    <img src="template/assets/images/mork/lael.jpg" alt="" />
+                                    <img src="template/assets/images/mork/sp.jpg" alt="" style={{width:"100%",height:"15rem"}} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
-                                            <a href="#"> Security Printing </a>
+                                            <a href="#"> Security Printing</a>
                                         </h5>
                                         <a href="#">
                                             <i className="bi bi-arrow-right" />
@@ -507,7 +507,7 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content">
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Security Printing </h3>
                                     <p>
                                         {" "}
