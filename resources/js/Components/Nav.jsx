@@ -12,7 +12,7 @@ export default function Nav() {
                         <div className="col-lg-2">
                             <div className="logo">
                                 <a className="logo_img" href="index.html" title="print_shop">
-                                    <img src="assets/images/logo.png" alt="" />
+                                    {/* <img src="assets/images/logo.png" alt="" /> */}
                                 </a>
                                 <a className="main_sticky" href="index.html" title="print_shop">
                                     <img src="assets/images/logo2.png" alt="astute" />
@@ -52,11 +52,12 @@ export default function Nav() {
             </div>
             {/* print_shop Mobile Menu  */}
             <div className="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
-                <div className="mobile-menu">
+                <div className="">
+                {/* <div className=""> */}
                     <nav className="print_shop_menu">
-                        <ul className="nav_scroll">
+                        <ul className="nav_scroll" style={{fontSize:"12px"}} >
                             <li>
-                                <Link href="/">Home</Link>
+                                <a href="/">Home</a>
                             </li>
                             <li>
                                 <Link className="" href="/about">
@@ -68,9 +69,6 @@ export default function Nav() {
                             </li>
                             <li>
                                 <Link href="/portfolio">Portfolio</Link>
-                            </li>
-                            <li>
-                                <Link href="#">Contact</Link>
                             </li>
                         </ul>
                     </nav>

@@ -69,21 +69,19 @@ function Welcome() {
                     <h1> Quality Pixel Perfect </h1>
                     <h1> Printing Company </h1>
                     <p>
-                      {" "}
                       Fast print, flyer, and pamphlet printing organization please
                       digital printing company Printing for what’s to come. What’s more,
-                      we do printing quality pixel perfect.{" "}
+                      we do printing quality pixel perfect.
                     </p>
                   </div>
                   {/* hero button */}
                   <div className="hero-button">
                     <a href="#">
-                      {" "}
-                      Contact Us <i className="bi bi-arrow-right" />{" "}
+                      Contact Us <i className="bi bi-arrow-right" />
                     </a>
                   </div>
                   {/* video icon */}
-                 
+
                 </div>
                 {/* slider shape */}
                 <div className="hero-shape">
@@ -118,7 +116,7 @@ function Welcome() {
         </div>
         {/* second slide */}
         <div className="keen-slider__slide number-slide2">
-          <div className="custom-hero-section custom-hero2 d-flex align-items-center" style={{height:"40rem"}}>
+          <div className="custom-hero-section custom-hero2 d-flex align-items-center" style={{ height: "40rem" }}>
             <div className="container">
               <div className="row custom-hero-bg align-items-center">
                 <div className="col-lg-12">
@@ -127,39 +125,44 @@ function Welcome() {
                     <h1> Quality Pixel Perfect </h1>
                     <h1> Printing Company </h1>
                     <p>
-                      {" "}
                       Fast print, flyer, and pamphlet printing organization please
                       digital printing company Printing for what’s to come. What’s more,
-                      we do printing quality pixel perfect.{" "}
+                      we do printing quality pixel perfect.
                     </p>
                   </div>
                   {/* hero button */}
                   <div className="hero-button">
                     <a href="#">
-                      {" "}
-                      Contact Us <i className="bi bi-arrow-right" />{" "}
+                      Contact Us <i className="bi bi-arrow-right" />
                     </a>
                   </div>
                   {/* video icon */}
-                  
+
                 </div>
                 {/* slider shape */}
-                <div className="hero-shape">
-                  <div className="hero-shape-thumb bounce-animate">
-                    <img src="template/assets/images/slider/ball2.png" alt="" />
+                <div className="custom-hero-shape">
+                  <div className="custom-hero-shape-thumb bounce-animate">
+                    {/* <img src="template/assets/images/slider/ball2.png" alt="" /> */}
                   </div>
                   <div className="hero-shape-thumb2 dance">
-                    <img src="template/assets/images/resource/ball2.png" alt="" />
+                    {/* <img src="template/assets/images/resource/ball2.png" alt="" /> */}
                   </div>
                   <div className="hero-shape-thumb3 bounce-animate2">
-                    <img src="template/assets/images/slider/cross1.png" alt="" />
+                    {/* <img src="template/assets/images/slider/cross1.png" alt="" /> */}
                   </div>
-                  <div className="hero-shape-thumb6 dance2">
+                  <div className="hero-shape-thumb4 bounce-animate3">
+                    {/* <img src="template/assets/images/slider/cross2.png" alt="" /> */}
+                  </div>
+                  {/* <div className="hero-shape-thumb5 bounce-animate4">
+                    <img src="template/assets/images/slider/hero-shape.png" alt="" />
+                  </div> */}
+                  <div className="custom-hero-shape-thumb6 dance2">
                     <img src="template/assets/images/slider/hero-shape2.png" alt="" />
-                    <div className="custom-shape-title" >
-                      <h2 className="">Mork Impressions </h2>
-                    </div>
                     {/* shape title */}
+                    <div className="shape-title" style={{top:"14rem"}}>
+                      <h2 className="">Mork Impressions </h2>
+                      {/* <h3>Company</h3> */}
+                    </div>
                   </div>
                   {/* shape End */}
                 </div>
@@ -361,7 +364,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content" style={{height:"13rem"}}>
+                <div className="service-content" style={{ height: "13rem" }}>
                   <h3> Large Format Printing </h3>
                   <p>
                     {" "}
@@ -413,7 +416,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content" style={{height: "13rem" }}>
+                <div className="service-content" style={{ height: "13rem" }}>
                   <h3> Industrial Lamination  </h3>
                   <p>
                     {" "}
@@ -439,7 +442,7 @@ function Welcome() {
                   </div>
                 </div>
                 {/* service content */}
-                <div className="service-content" style={{height: "13rem" }}>
+                <div className="service-content" style={{ height: "13rem" }}>
                   <h3> Digital Colour Press </h3>
                   <p>
                     {" "}
@@ -510,7 +513,7 @@ function Welcome() {
                   <h5>
                     <a href="/portfolio"> View More </a>
                   </h5>
-                  <a href="/portfolio"> View More 
+                  <a href="/portfolio"> View More
                     <i className="bi bi-arrow-right" />
                   </a>
                 </div>
@@ -520,9 +523,9 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                  <a href="/portfolio"> View More </a>
+                    <a href="/portfolio"> View More </a>
                   </h5>
-                <a href="/portfolio"> View More 
+                  <a href="/portfolio"> View More
                     <i className="bi bi-arrow-right" />
                   </a>
                 </div>
@@ -608,7 +611,7 @@ function Welcome() {
             </div>
             <div className="col-lg-6 col-md-6 pl-40">
               <div className="faq-thumb" >
-                <img src="template/assets/images/resource/post4.png"style={{height:"35rem",width:"100%"}} alt="" />
+                <img src="template/assets/images/resource/post4.png" style={{ height: "35rem", width: "100%" }} alt="" />
               </div>
             </div>
             {/* faq shape */}
@@ -642,7 +645,7 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop Brand Section  */}
       {/*==================================================*/}
-      
+
       {/*==================================================*/}
       {/* End print shop Brand Section */}
       {/*==================================================*/}
@@ -650,53 +653,43 @@ function Welcome() {
       {/* Start print shop Team Section  */}
       {/*==================================================*/}
 
-      
+
       {/* partners */}
-      <div className="" style={{ paddingBottom:"10rem"}}>
-        <div className="">
-          <h2 className="text-center " style={{ paddingTop: "5rem", paddingBottom: "2rem" }}>
-            Our <span>Partners</span>
-          </h2>
-        </div>
-        <div className="row text-center" style={{ justifyContent: "center" }}>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
+      <div className="brand-section" style={{paddingBottom:"8rem"}}>
+        
+        <div className="mx-auto " >
+          <div className="row gx-5" style={{justifyContent:"center"}} >
+            <div className="brand-list owl-carousel">
+              <div className="col-lg-12 ">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/logos/01.jpg" style={{height:"10rem"}} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="b">
+                  <img src="template/assets/images/logos/5.jpg" style={{ height: "10rem"}} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/logos/7.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/logos/6.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/logos/7.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-4">
-              <img src="template/assets/images/logo.png" alt="" />
-            </div>
-          </div>
-         
         </div>
       </div>
+
       {/*==================================================*/}
       {/* End print shop Team Section */}
       {/*==================================================*/}
@@ -817,7 +810,7 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop contact Section  */}
       {/*==================================================*/}
-      <div className="contact-section home-two" style={{paddingTop: "5rem"}}>
+      <div className="contact-section home-two" style={{ paddingTop: "5rem" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">

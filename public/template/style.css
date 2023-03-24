@@ -612,6 +612,12 @@ nav.print_shop_menu {
     top: -15%;
     z-index: -1;
 }
+.custom-hero2 .custom-hero-shape-thumb6 {
+    position: absolute;
+    right: -12%;
+    top: -15%;
+    z-index: -1;
+}
 /*shape title*/
 .shape-title {
     position: absolute;
@@ -648,7 +654,7 @@ nav.print_shop_menu {
 /*hero sectio three
 ======================================================**/
 .hero-section.hero3 {
-    background: url(assets/images/slider/hero-bg3.jpg);
+    background: url(assets/images/mork/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

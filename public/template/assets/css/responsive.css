@@ -65,7 +65,20 @@ a.main_sticky img {
 .hero2.hero-section {
     height: 755px;
 }
+.custom-hero2.custom-hero-section {
+    height: 755px;
+}
+.hero2.hero-section {
+    height: 755px;
+}
+.custom-hero2.hero-section {
+    height: 755px;
+}
 .hero2 .hero-content h1 {
+    font-size: 50px;
+    line-height: 45px;
+}
+.custom-hero2 .custom-hero-content h1 {
     font-size: 50px;
     line-height: 45px;
 }
@@ -74,10 +87,16 @@ a.main_sticky img {
 .hero2 .hero-shape-thumb5 {
     display: none;
 }
+.custom-hero2 .custom-hero-shape-thumb5 {
+    display: none;
+}
 .hero2 .hero-shape-thumb6 img {
     width: 80%;
 }
-.hero2 .hero-shape-thumb6 {
+.custom-hero2 .custom-hero-shape-thumb6 img {
+    width: 80%;
+}
+.custom-hero2 .custom-hero-shape-thumb6 {
     right: -7%;
     top: -10%;
 }
@@ -524,7 +543,14 @@ ul.footer-widget-list li a i {
     font-size: 36px;
     line-height: 30px;
 }
+.custom-hero-content h1 {
+    font-size: 36px;
+    line-height: 30px;
+}
 .hero-content p {
+    width: 100%;
+}
+.custom-hero-content p {
     width: 100%;
 }
 /*hero shape*/
@@ -561,7 +587,14 @@ ul.footer-widget-list li a i {
 .hero2 .hero-shape-thumb6 img {
     width: 50%;
 }
+.custom-hero2 .custom-hero-shape-thumb6 img {
+    width: 50%;
+}
 .hero2 .hero-shape-thumb6 {
+    right: -33%;
+    top: 26%;
+}
+.custom-hero2 .custom-hero-shape-thumb6 {
     right: -33%;
     top: 26%;
 }
@@ -1053,7 +1086,14 @@ ul.footer-widget-list li a i {
     font-size: 36px;
     line-height: 30px;
 }
+.custom-hero-content h1 {
+    font-size: 36px;
+    line-height: 30px;
+}
 .hero-content p {
+    width: 100%;
+}
+.custom-hero-content p {
     width: 100%;
 }
 
@@ -1073,11 +1113,21 @@ ul.footer-widget-list li a i {
 .hero2.hero-section {
     height: 680px;
 }
+.custom-hero2.hero-section {
+    height: 680px;
+}
 .hero2 .hero-content h1 {
     font-size: 40px;
     line-height: 35px;
 }
+.custom-hero2 .custom-hero-content h1 {
+    font-size: 40px;
+    line-height: 35px;
+}
 .hero2 .hero-content p {
+    width: 75%;
+}
+.custom-hero2 .custom-hero-content p {
     width: 75%;
 }
 /*hero shape*/
@@ -1086,6 +1136,9 @@ ul.footer-widget-list li a i {
     display: none;
 }
 .hero2 .hero-shape-thumb6 {
+    display: none;
+}
+.custom-hero2 .custom-hero-shape-thumb6 {
     display: none;
 }
 .hero2 .hero-shape-thumb2 {
@@ -1548,7 +1601,15 @@ h4.widget-title {
     font-size: 30px;
     line-height: 25px;
 }
+.custom-hero-content h1 {
+    font-size: 30px;
+    line-height: 25px;
+}
 .hero-content p {
+    width: 100%;
+    font-size: 15px;
+}
+.custom-hero-content p {
     width: 100%;
     font-size: 15px;
 }
@@ -1575,11 +1636,21 @@ h4.widget-title {
 .hero2.hero-section {
     height: 680px;
 }
+.custom-hero2.custom-hero-section {
+    height: 680px;
+}
 .hero2 .hero-content h1 {
     font-size: 40px;
     line-height: 35px;
 }
+.custom-hero2 .custom-hero-content h1 {
+    font-size: 40px;
+    line-height: 35px;
+}
 .hero2 .hero-content p {
+    width: 75%;
+}
+.custom-hero2 .custom-hero-content p {
     width: 75%;
 }
 /*hero shape*/
@@ -1588,6 +1659,9 @@ h4.widget-title {
     display: none;
 }
 .hero2 .hero-shape-thumb6 {
+    display: none;
+}
+.custom-hero2 .custom-hero-shape-thumb6 {
     display: none;
 }
 .hero2 .hero-shape-thumb2 {
@@ -2092,7 +2166,15 @@ h4.widget-title {
     font-size: 30px;
     line-height: 25px;
 }
+.custom-hero-content h1 {
+    font-size: 30px;
+    line-height: 25px;
+}
 .hero-content p {
+    width: 100%;
+    font-size: 15px;
+}
+.custom-hero-content p {
     width: 100%;
     font-size: 15px;
 }
@@ -2119,11 +2201,21 @@ h4.widget-title {
 .hero2.hero-section {
     height: 680px;
 }
+.custom-hero2.custom-hero-section {
+    height: 680px;
+}
 .hero2 .hero-content h1 {
     font-size: 28px;
     line-height: 26px;
 }
+.custom-hero2 .custom-hero-content h1 {
+    font-size: 28px;
+    line-height: 26px;
+}
 .hero2 .hero-content p {
+    width: 100%;
+}
+.custom-hero2 .custom-hero-content p {
     width: 100%;
 }
 /*hero shape*/
@@ -2131,6 +2223,9 @@ h4.widget-title {
     display: none;
 }
 .hero2 .hero-shape-thumb6 {
+    display: none;
+}
+.custom-hero2 .custom-hero-shape-thumb6 {
     display: none;
 }
 .hero2 .hero-shape-thumb2 {
