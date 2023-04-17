@@ -1,4 +1,4 @@
-import Nav from "../Components/a";
+import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 
 import { Inertia } from '@inertiajs/inertia';
@@ -18,7 +18,7 @@ export default function Portfolio() {
             {/*==================================================*/}
             {/* Start print shop breatcam section  */}
             {/*==================================================*/}
-            <div className="breatcam-section d-flex align-items-center">
+            <div className="breatcam-section d-flex align-items-center ">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -47,7 +47,7 @@ export default function Portfolio() {
             {/*==================================================*/}
             {/* Start itsoft case study Area */}
             {/*==================================================*/}
-            <div className="case-study-section">
+            <div className="case-study-section bg-white">
                 <div className="container">
                     <div className="row case-study-bg">
                         <div className="col-lg-12">
@@ -235,6 +235,7 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
+            
 
             {/*==================================================*/}
             {/* End itsoft case study Area */}

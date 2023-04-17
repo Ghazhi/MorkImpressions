@@ -4,9 +4,9 @@ export default function Nav() {
     return (
         <nav className="navbar navbar-expand-lg customNav" >
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" href="/">
                  <img src="template/assets/images/mork/morkLogo.png" alt="morkimpression" style={{height:"3rem"}}/>
-                </a>
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -18,9 +18,9 @@ export default function Nav() {
                 >
                     <span className="navbar-toggler-icon" />
                 </button>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" style={{paddingRight:"3rem"}}>
                    
-                    <ul className="navbar-nav justify-content-between" >
+                    <ul className="navbar-nav" >
                         <li className="nav-item">
                             <Link className="nav-link" aria-current="page" href="/">
                                 Home

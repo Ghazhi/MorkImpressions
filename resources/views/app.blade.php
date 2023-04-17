@@ -13,7 +13,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon -->
-  <link rel="icon" type="template/image/png" sizes="56x56" href="template/assets/images/fav-icon/png">
+  <link rel="icon" type="template/image/png" sizes="56x80" href="template/assets/images/mork/mk.png">
   <!-- bootstrap CSS -->
   <link rel="stylesheet" href="template/assets/css/bootstrap.min.css" type="text/css" media="all" />
   <!-- carousel CSS -->
