@@ -1,4 +1,4 @@
-import Nav from "../Components/Nav";
+import Nav from "../Components/a";
 import Footer from "../Components/Footer";
 
 import { Inertia } from '@inertiajs/inertia';

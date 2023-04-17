@@ -59,11 +59,6 @@ export default function Services() {
                                     {" "}
                                     <span> And Design </span>
                                 </h1>
-                                <p>
-                                    Professionally pursue economically sound services resource sucking
-                                    potentialities. Authoritat morph with premier catalysts for change
-                                    awesome services for you.{" "}
-                                </p>
                             </div>
                         </div>
                         {/* service shape */}
@@ -86,7 +81,7 @@ export default function Services() {
                     <Modal open={open1} onClose={() => setOpen1(false)} center>
                         <div className="row">
                             <div className="col ">
-                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+                                <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                             </div>
                             <div className="col">
                                 <div className="csd-content">
@@ -311,7 +306,7 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                         
+
                                 <div className="service-thumb" onClick={() => setOpen1(true)}>
                                     <img src="template/assets/images/mork/bg1.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
@@ -325,12 +320,11 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                            <div className="service-content" style={{height:"13rem"}}>
+                                <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Large Format Printing </h3>
                                     <p>
-                                        {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                        Large graphics and designs for billboards,
+                                        advertisment on cars and buses etc
                                     </p>
                                 </div>
                             </div>
@@ -355,8 +349,8 @@ export default function Services() {
                                     <h3>Industrial & Commercial Print </h3>
                                     <p>
                                         {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                        We print on products as part of a
+                                        manufacturing process which adds value to products.{" "}
                                     </p>
                                 </div>
                             </div>
@@ -381,8 +375,7 @@ export default function Services() {
                                     <h3> Industrial Lamination </h3>
                                     <p>
                                         {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                        Protect important documents with protective filming.{" "}
                                     </p>
                                 </div>
                             </div>
@@ -407,8 +400,7 @@ export default function Services() {
                                     <h3> Digital Colour Press </h3>
                                     <p>
                                         {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                        A high-quality color printing for a professional-quality prints.{" "}
                                     </p>
                                 </div>
                             </div>
@@ -417,7 +409,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen5(true)}>
-                                    <img src="template/assets/images/mork/mag.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
+                                    <img src="template/assets/images/mork/grdsn.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -443,7 +435,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen6(true)}>
-                                    <img src="template/assets/images/mork/color.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
+                                    <img src="template/assets/images/mork/cala.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -495,7 +487,7 @@ export default function Services() {
                             <div className="single-service-box2">
                                 {/* service thumb */}
                                 <div className="service-thumb" onClick={() => setOpen8(true)}>
-                                    <img src="template/assets/images/mork/sp.jpg" alt="" style={{width:"100%",height:"15rem"}} />
+                                    <img src="template/assets/images/mork/sp.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
                                         <h5>
@@ -531,7 +523,7 @@ export default function Services() {
                     <div className="row align-items-center mb-60">
                         <div className="col-lg-12">
                             <div className="print_shop-section-title text-center">
-                                <h5> WE ARE Professionals </h5>
+                                <h5> We Are Professionals </h5>
                                 <h1> Choose The Best Package For </h1>
                                 <h1>
                                     {" "}
@@ -545,29 +537,26 @@ export default function Services() {
                             <div className="single-blog-box">
                                 {/* blog thumb */}
                                 <div className="single-blog-thumb">
-                                    <img src="template/assets/images/resource/tab1.jpg" alt="" />
+                                    <img src="template/assets/images/mork/12.jpeg" style={{ width: "100%", height: "20rem" }} alt="" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-blog-box">
+                                {/* blog thumb */}
+                                <div className="single-blog-thumb">
+                                    <img src="template/assets/images/mork/7.jpeg" style={{ width: "100%", height: "20rem" }} alt="" />
                                 </div>
                                 {/* blog content */}
-                                <div className="blog-content">
-                                    {/* post categories */}
-                                   
-                                    {/* blog title */}
-                                    <div className="blog-title">
-                                        <h2>
-                                            {" "}
-                                            <a href="blog-details.html">
-                                                {" "}
-                                                Smashing Podcast Episode With Vitaly Friedman Jay{" "}
-                                            </a>{" "}
-                                        </h2>
-                                    </div>
-                                    {/* blog desc */}
-                                    <div className="blog-desc">
-                                        <p>
-                                            Lorem ipsum dolor consecttur adipiscing eaxm elit aenean
-                                            pharetra mollis pretium.
-                                        </p>
-                                    </div>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-blog-box">
+                                {/* blog thumb */}
+                                <div className="single-blog-thumb">
+                                    <img src="template/assets/images/mork/6.jpeg" style={{ width: "100%", height: "20rem" }} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -575,60 +564,27 @@ export default function Services() {
                             <div className="single-blog-box">
                                 {/* blog thumb */}
                                 <div className="single-blog-thumb">
-                                    <img src="template/assets/images/resource/tab2.jpg" alt="" />
+                                    <img src="template/assets/images/mork/10.jpeg" style={{ width: "100%", height: "20rem" }} alt="" />
                                 </div>
-                                {/* blog content */}
-                                <div className="blog-content">
-                                    {/* post categories */}
-                                    
-                                    {/* blog title */}
-                                    <div className="blog-title">
-                                        <h2>
-                                            {" "}
-                                            <a href="blog-details.html">
-                                                {" "}
-                                                Modern Way To Create And See Host WordPress{" "}
-                                            </a>{" "}
-                                        </h2>
-                                    </div>
-                                    {/* blog desc */}
-                                    <div className="blog-desc">
-                                        <p>
-                                            Lorem ipsum dolor consecttur adipiscing eaxm elit aenean
-                                            pharetra mollis pretium.
-                                        </p>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-box">
                                 {/* blog thumb */}
                                 <div className="single-blog-thumb">
-                                    <img src="template/assets/images/resource/tab3.jpg" alt="" />
+                                    <img src="template/assets/images/mork/8.jpeg" style={{ width: "100%", height: "20rem" }} alt="" />
                                 </div>
-                                {/* blog content */}
-                                <div className="blog-content">
-                                    {/* post categories */}
-                                   
-                                    {/* blog title */}
-                                    <div className="blog-title">
-                                        <h2>
-                                            {" "}
-                                            <a href="blog-details.html">
-                                                {" "}
-                                                Rethinking Server-Timing As A Monitoring Tool{" "}
-                                            </a>{" "}
-                                        </h2>
-                                    </div>
-                                    {/* blog desc */}
-                                    <div className="blog-desc">
-                                        <p>
-                                            Lorem ipsum dolor consecttur adipiscing eaxm elit aenean
-                                            pharetra mollis pretium.
-                                        </p>
-                                    </div>
+
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-blog-box">
+                                {/* blog thumb */}
+                                <div className="single-blog-thumb">
+                                    <img src="template/assets/images/mork/5.jpeg" style={{ width: "100%", height: "20rem" }} alt="" />
                                 </div>
+
                             </div>
                         </div>
                     </div>

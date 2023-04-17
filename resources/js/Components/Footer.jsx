@@ -8,8 +8,8 @@ export default function Footer () {
                             <div className="widgets-company-info">
                                 {/* print logo */}
                                 <div className="print-logo">
-                                    <a className="logo_img" href="index.html" title="techno">
-                                        <img src="assets/images/logo.png" alt="" />
+                                    <a className="logo_img" href="index.html" title="morkimpression">
+                                        <img src="assets/images/mork/morkLogo.png" alt="" />
                                     </a>
                                 </div>
                                 {/* footer desc */}
@@ -52,16 +52,11 @@ export default function Footer () {
                                 <h4 className="widget-title"> Get in touch </h4>
                                 <div className="menu-quick-link-content">
                                     <ul className="footer-widget-list">
+
                                         <li>
                                             <a href="#">
                                                 {" "}
-                                                <i className="bi bi-arrow-right" /> Shoping
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                {" "}
-                                                <i className="bi bi-arrow-right" /> product
+                                                <i className="bi bi-arrow-right" /> About Us
                                             </a>
                                         </li>
                                         <li>
@@ -73,13 +68,7 @@ export default function Footer () {
                                         <li>
                                             <a href="#">
                                                 {" "}
-                                                <i className="bi bi-arrow-right" /> About Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                {" "}
-                                                <i className="bi bi-arrow-right" /> Contact Us
+                                                <i className="bi bi-arrow-right" /> Portfolio
                                             </a>
                                         </li>
                                     </ul>
@@ -92,28 +81,23 @@ export default function Footer () {
                                 <h4 className="widget-title"> Useful Links </h4>
                                 <div className="menu-quick-link-content">
                                     <ul className="footer-widget-list">
+                                        
                                         <li>
                                             <a href="#">
                                                 {" "}
-                                                <i className="bi bi-arrow-right" /> Useful Links
+                                                <i className="bi bi-arrow-right" />Industrial Lamination
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 {" "}
-                                                <i className="bi bi-arrow-right" /> 3d Printing
+                                                <i className="bi bi-arrow-right" /> Graphic Design
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 {" "}
-                                                <i className="bi bi-arrow-right" /> Printing &amp; Design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                {" "}
-                                                <i className="bi bi-arrow-right" /> Upset Printing
+                                                <i className="bi bi-arrow-right" /> Offset Printing
                                             </a>
                                         </li>
                                         <li>
@@ -134,16 +118,15 @@ export default function Footer () {
                                 <div className="company-contact-info">
                                     <p>
                                         {" "}
-                                        <i className="bi bi-telephone" /> Phone: 800.123.4567{" "}
+                                        <i className="bi bi-telephone" /> Phone: 1111 11 11{" "}
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-envelope-fill" /> Email: www.@example.com{" "}
+                                        <i className="bi bi-envelope-fill" /> Email: morkimpression@gmail{" "}
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-geo-alt-fill" /> A26BT5 Building, SilverC
-                                        Street, London, England.{" "}
+                                        <i className="bi bi-geo-alt-fill" /> Accra Ghana
                                     </p>
                                 </div>
                             </div>

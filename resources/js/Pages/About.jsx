@@ -2,11 +2,18 @@ import Footer from "../Components/Footer";
 import Nav from "../Components/Nav";
 
 export default function About() {
-    return ( 
+    return (
         <>
-           <Nav />
+            <Nav />
             {/*==================================================*/}
-            {/* End print shop Main Menu */}
+            {/* End print shop Main Menu 
+             Large graphics and designs for billboards, 
+             advertisment on cars or buses etc.
+             We print onto products as part of a
+              manufacturing process which adds a significant value to products.
+              A high-quality color printing for a professional-quality prints.
+            
+            */}
             {/*==================================================*/}
             {/*==================================================*/}
             {/* Start print shop breatcam section  */}
@@ -52,32 +59,32 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 pl-35" style={{paddingLeft:"5rem"}}>
+                        <div className="col-lg-6 col-md-6 pl-35" style={{ paddingLeft: "5rem" }}>
                             <div className="print_shop-section-title">
-                                <h5> ABOUT PRINTING SERVICES </h5>
-                               <p>
-                                    We undertake both industrial and commercial printing. Our high-resolution pre-press equipment 
-                                    releases every pantone with the exact colour density that meets modern demands of any organisation. 
-                                    We are dedicated to the pursuit of excellence in all our work, hence doing business with Mork 
-                                    Impression will be an opportunity of realizing a company that meets your pre-press and printing 
-                                    needs with all promptness and accuracy. We produce to precision, accuracy and exactitude. 
-                                    Your print works could be delivered within 24 hours upon approval.
-                               </p>
-                            </div>
-                            {/* about check */}
-                            <div className="about-check">
+                                <h5> ABOUT OUR PRINTING SERVICES </h5>
                                 <p>
-                                    <i className="bi bi-check-lg" /> Large paper &amp; stock selection
-                                    &amp; Unique Print{" "}
+                                    We are a Printing Press incorporated in Ghana,
+                                    with a state of the art Digital and Offset printing machines.
+                                    Our company was established in 2005 out of a passionate desire 
+                                    and commitment to undertake General printing and primary packaging.
+                                    <br />
+                                   
+                                    We produce to precision, accuracy and exactitude. Our high-resolution
+                                    pre-press equipment releases every pantone with the exact colour density
+                                    that meets modern demands of any Organisation. We provide services with
+                                    speed and accuracy.
+                                    <br />
+                                     Our professionals have identified certain
+                                    needs in the export and food processing sector. These needs are
+                                    graphic design, image setter, offset printing and production of
+                                    primary packaging and skillets to support the overall business
+                                    objectives in order to generate significant growth and superior
+                                    stakeholders’ value.
+
                                 </p>
+                                
                             </div>
-                            {/* about check */}
-                            <div className="about-check">
-                                <p>
-                                    <i className="bi bi-check-lg" /> Printing programs tailored to
-                                    your company needs{" "}
-                                </p>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -100,14 +107,9 @@ export default function About() {
                                     <h5> OUR TEAM  </h5>
                                     <h1>
                                         {" "}
-                                        Creative Team <span> Members </span>{" "}
+                                        Creative  <span> Team </span>{" "}
                                     </h1>
-                                    <p>
-                                        {" "}
-                                        Professionally pursue economically sound services resource sucking
-                                        potentialities morph with premier catalysts for change awesome
-                                        services you.{" "}
-                                    </p>
+                                   
                                 </div>
                             </div>
                             {/* service shape */}
@@ -322,14 +324,14 @@ export default function About() {
                 {/*==================================================*/}
                 {/* Start print shop Faq Section  */}
                 {/*==================================================*/}
-               
+
                 {/*==================================================*/}
                 {/* End print shop Faq Section */}
                 {/*==================================================*/}
                 {/*==================================================*/}
                 {/* Start print shop Demand Section  */}
                 {/*==================================================*/}
-                <div className="demand-section upp" style={{paddingTop:"21rem"}}>
+                <div className="demand-section upp" style={{ paddingTop: "21rem" }}>
                     <div className="container">
                         <div className="row demand-bg">
                             <div className="col-lg-12">
@@ -347,19 +349,18 @@ export default function About() {
                             </div>
                             {/* deamnd shape */}
                             <div className="deamnd-shape">
-                                <img src="template/assets/images/resource/t-shart.png" alt="" />
+                                <img src="template/assets/images/resource/t-shirt.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </>
-
             {/*==================================================*/}
             {/* End print shop Service Section  */}
             {/*==================================================*/}
             <Footer />
         </>
 
-     );
+    );
 }
 
