@@ -1,8 +1,15 @@
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 
+import { Inertia } from '@inertiajs/inertia';
+
+
+
 export default function Portfolio() {
-    return ( 
+    Inertia.on("success", (event) => {
+        event.detail.page.url === "/portfolio" && window.location.reload();
+    });
+    return (
         <>
             <Nav />
             {/*==================================================*/}
@@ -47,7 +54,8 @@ export default function Portfolio() {
                             <div className="print_shop-section-title text-center">
                                 <h5> CASE STUDIES </h5>
                                 <h1>
-                                    We Server the Best Works View Case <span>Studies</span>
+                                    {" "}
+                                    We Serve the Best Works. View Case <span>Studies</span>
                                 </h1>
                             </div>
                         </div>
@@ -55,11 +63,11 @@ export default function Portfolio() {
                             <div className="portfolio_nav">
                                 <div className="portfolio_menu">
                                     <ul className="menu-filtering">
-                                        <li className="current_menu_item" data-filter=".physics">
-                                           
-                                            All items
+                                        <li className="current_menu_item" data-filter="*">
+                                            {" "}
+                                            All items{" "}
                                         </li>
-                                        <li data-filter="*"> Shop </li>
+                                        <li data-filter=".physics"> Shop </li>
                                         <li data-filter=".chemistry"> T-Shart </li>
                                         <li data-filter=".math"> Print </li>
                                     </ul>
@@ -227,88 +235,17 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
+
             {/*==================================================*/}
             {/* End itsoft case study Area */}
             {/*==================================================*/}
             {/*==================================================*/}
             {/* Start print shop Portfolio Section  */}
             {/*==================================================*/}
-            <div className="portfolio-serction style-two upp2">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="print_shop-section-title text-center">
-                                <h5> CASE STUDIES </h5>
-                                <h1>
-                                    {" "}
-                                    How Dose We <span> Works </span>{" "}
-                                </h1>
-                                <p>
-                                    {" "}
-                                    Professionally pursue economically sound services resource sucking
-                                    potentialities morph with premier catalysts for change awesome
-                                    services you.{" "}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="portfolio-items-thumb">
-                            <div className="item">
-                                <img src="template/assets/images/resource/ports2.jpg" alt="" />
-                                {/* port content */}
-                                <div className="port-content">
-                                    <h5>
-                                        <a href="#">T- Shirt Design Service</a>
-                                    </h5>
-                                    <a href="#">
-                                        <i className="bi bi-arrow-right" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="template/assets/images/resource/ports3.jpg" alt="" />
-                                {/* port content */}
-                                <div className="port-content">
-                                    <h5>
-                                        <a href="#"> Shoping mug </a>
-                                    </h5>
-                                    <a href="#">
-                                        <i className="bi bi-arrow-right" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="template/assets/images/resource/ports4.jpg" alt="" />
-                                {/* port content */}
-                                <div className="port-content">
-                                    <h5>
-                                        <a href="#"> Printing Service </a>
-                                    </h5>
-                                    <a href="#">
-                                        <i className="bi bi-arrow-right" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <img src="template/assets/images/resource/ports1.jpg" alt="" />
-                                {/* port content */}
-                                <div className="port-content">
-                                    <h5>
-                                        <a href="#">Silk-screen printing</a>
-                                    </h5>
-                                    <a href="#">
-                                        <i className="bi bi-arrow-right" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <Footer />
         </>
 
-     );
+    );
 }
 
