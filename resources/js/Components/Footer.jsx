@@ -121,7 +121,7 @@ export default function Footer() {
                                     <p>
                                         {" "}
                                         <i className="bi bi-geo-alt-fill" /> 
-                                        Mamprobi, A1161/3 Kpakpo, Brimah Street, Accra Ghana
+                                        Mamprobi, A1161/3 Kpakpo, DO Adokwei Street, Accra Ghana
                                     </p>
                                 </div>
                             </div>

@@ -2316,7 +2316,7 @@ function Footer() {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-geo-alt-fill"
-                  }), "Mamprobi, A1161/3 Kpakpo, Brimah Street, Accra Ghana"]
+                  }), "Mamprobi, A1161/3 Kpakpo, DO Adokwei Street, Accra Ghana"]
                 })]
               })]
             })
