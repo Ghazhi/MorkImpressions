@@ -112,11 +112,11 @@ export default function Footer() {
                                 <div className="company-contact-info">
                                     <p>
                                         {" "}
-                                        <i className="bi bi-telephone" /> Phone: +233 244 372 598<br /> +233 302 316 441
+                                        <i className="bi bi-telephone" /> +233 244 372 598<br /> +233 302 316 441
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-envelope-fill" /> Email: info@morkimpression.com{" "}
+                                        <i className="bi bi-envelope-fill" /> info@morkimpression.com{" "}
                                     </p>
                                     <p>
                                         {" "}

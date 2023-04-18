@@ -2308,11 +2308,11 @@ function Footer() {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-telephone"
-                  }), " Phone: +233 244 372 598", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), " +233 302 316 441"]
+                  }), " +233 244 372 598", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), " +233 302 316 441"]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-envelope-fill"
-                  }), " Email: info@morkimpression.com", " "]
+                  }), " info@morkimpression.com", " "]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-geo-alt-fill"
@@ -3071,7 +3071,7 @@ function Welcome() {
                     className: "shape-title",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
                       className: "",
-                      children: "Mork Impressions "
+                      children: "Mork Impression "
                     })
                   })]
                 })]
@@ -3134,7 +3134,7 @@ function Welcome() {
                     },
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h2", {
                       className: "",
-                      children: "Mork Impressions "
+                      children: "Mork Impression "
                     })
                   })]
                 })]

@@ -99,7 +99,7 @@ function Welcome() {
                     <img src="template/assets/images/slider/hero-shape2.png" alt="" />
                     {/* shape title */}
                     <div className="shape-title">
-                      <h2 className="">Mork Impressions </h2>
+                      <h2 className="">Mork Impression </h2>
                       {/* <h3>Company</h3> */}
                     </div>
                   </div>
@@ -156,7 +156,7 @@ function Welcome() {
                     <img src="template/assets/images/slider/hero-shape2.png" alt="" />
                     {/* shape title */}
                     <div className="shape-title" style={{ top: "14rem" }}>
-                      <h2 className="">Mork Impressions </h2>
+                      <h2 className="">Mork Impression </h2>
                       {/* <h3>Company</h3> */}
                     </div>
                   </div>
