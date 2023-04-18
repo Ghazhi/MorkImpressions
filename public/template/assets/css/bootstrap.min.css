@@ -7,6 +7,7 @@
  */
 :root,
 [data-bs-theme=light] {
+    
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -4329,7 +4330,7 @@ fieldset:disabled .btn {
 
 .nav-link:focus,
 .nav-link:hover {
-    color: var(--bs-nav-link-hover-color)
+    color: var(--bs-orange)
 }
 
 .nav-link.disabled {
