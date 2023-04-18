@@ -260,8 +260,7 @@ function Welcome() {
                     <div className="about-item-content">
                       <h4> Industrial printing  </h4>
                       <p>
-                        {" "}
-                        services resource potentialities awesome services you.{" "}
+                      Magazines, Newspapers, Flyers, Books
                       </p>
                     </div>
                   </div>
@@ -274,8 +273,7 @@ function Welcome() {
                     <div className="about-item-content">
                       <h4> Commercial printing  </h4>
                       <p>
-                        {" "}
-                        services resource potentialities awesome services you.{" "}
+                      Business cards, Postcards, Brochures 
                       </p>
                     </div>
                   </div>
@@ -796,7 +794,7 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop contact Section  */}
       {/*==================================================*/}
-      <div className="contact-section home-two" style={{ paddingTop: "5rem" }}>
+      <div className="contact-section home-two" >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
@@ -807,7 +805,7 @@ function Welcome() {
                
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 " style={{ paddingLeft: "5rem" }}>
+            <div className="col-lg-6 col-md-6 mx-auto">
               <div className="print_shop-section-title text-center">
                 <h1>
                   {" "}

@@ -3264,8 +3264,8 @@ function Welcome() {
                     className: "about-item-content",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h4", {
                       children: " Industrial printing  "
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("p", {
-                      children: [" ", "services resource potentialities awesome services you.", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+                      children: "Magazines, Newspapers, Flyers, Books"
                     })]
                   })]
                 })
@@ -3283,8 +3283,8 @@ function Welcome() {
                     className: "about-item-content",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("h4", {
                       children: " Commercial printing  "
-                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("p", {
-                      children: [" ", "services resource potentialities awesome services you.", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+                      children: "Business cards, Postcards, Brochures"
                     })]
                   })]
                 })
@@ -4050,9 +4050,6 @@ function Welcome() {
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
       className: "contact-section home-two",
-      style: {
-        paddingTop: "5rem"
-      },
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
         className: "container",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
@@ -4071,10 +4068,7 @@ function Welcome() {
               })
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
-            className: "col-lg-6 col-md-6 ",
-            style: {
-              paddingLeft: "5rem"
-            },
+            className: "col-lg-6 col-md-6 mx-auto",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
               className: "print_shop-section-title text-center",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("h1", {
