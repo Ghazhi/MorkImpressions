@@ -2213,13 +2213,6 @@ function Footer() {
                         className: "fab fa-linkedin-in"
                       })
                     })
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                      href: "#",
-                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                        className: "fab fa-pinterest-p"
-                      })
-                    })
                   })]
                 })
               })]
@@ -2315,15 +2308,15 @@ function Footer() {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-telephone"
-                  }), " Phone: 1111 11 11", " "]
+                  }), " Phone: +233 244 372 598", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), " +233 302 316 441"]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-envelope-fill"
-                  }), " Email: morkimpression@gmail", " "]
+                  }), " Email: info@morkimpression.com", " "]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
                   children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
                     className: "bi bi-geo-alt-fill"
-                  }), " Accra Ghana"]
+                  }), "Mamprobi, A1161/3 Kpakpo, Brimah Street, Accra Ghana"]
                 })]
               })]
             })

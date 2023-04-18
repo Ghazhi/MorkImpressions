@@ -36,11 +36,6 @@ export default function Footer() {
                                                 <i className="fab fa-linkedin-in" />
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-pinterest-p" />
-                                            </a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,15 +112,16 @@ export default function Footer() {
                                 <div className="company-contact-info">
                                     <p>
                                         {" "}
-                                        <i className="bi bi-telephone" /> Phone: 1111 11 11{" "}
+                                        <i className="bi bi-telephone" /> Phone: +233 244 372 598<br /> +233 302 316 441
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-envelope-fill" /> Email: morkimpression@gmail{" "}
+                                        <i className="bi bi-envelope-fill" /> Email: info@morkimpression.com{" "}
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-geo-alt-fill" /> Accra Ghana
+                                        <i className="bi bi-geo-alt-fill" /> 
+                                        Mamprobi, A1161/3 Kpakpo, Brimah Street, Accra Ghana
                                     </p>
                                 </div>
                             </div>
