@@ -2306,17 +2306,9 @@ function Footer() {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
                 className: "company-contact-info",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-                  children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                    className: "bi bi-telephone"
-                  }), " +233 244 372 598", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), " +233 302 316 441"]
+                  children: [" ", "030 2326 403", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "030 2316 441", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "030 2234 765", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "233 244 372 598", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), "233 302 316 441"]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-                  children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                    className: "bi bi-envelope-fill"
-                  }), " info@morkimpression.com", " "]
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("p", {
-                  children: [" ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("i", {
-                    className: "bi bi-geo-alt-fill"
-                  }), "Mamprobi, A1161/3 Kpakpo, DO Adokwei Street, Accra Ghana"]
+                  children: [" ", "Mamprobi, A1161/3, Do Adokwei Street, Accra Ghana"]
                 })]
               })]
             })
@@ -2574,9 +2566,43 @@ function About() {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
               className: "print_shop-section-title",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h5", {
-                children: " ABOUT OUR PRINTING SERVICES "
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("p", {
-                children: ["We are a Printing Press incorporated in Ghana, with a state of the art Digital and Offset printing machines. Our company was established in 2005 out of a passionate desire and commitment to undertake General printing and primary packaging.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "We produce to precision, accuracy and exactitude. Our high-resolution pre-press equipment releases every pantone with the exact colour density that meets modern demands of any Organisation. We provide services with speed and accuracy.", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "Our professionals have identified certain needs in the export and food processing sector. These needs are graphic design, image setter, offset printing and production of primary packaging and skillets to support the overall business objectives in order to generate significant growth and superior stakeholders\u2019 value."]
+                children: " ABOUT OUR PRINTING SERVICE "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                className: "mb-4",
+                children: "We are a Printing Press incorporated in Ghana, with a state of the art Digital and Offset printing machines. Our company was established in 2005 out of a passionate desire and commitment to undertake General printing and primary packaging."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                className: "mb-4",
+                children: "We produce to precision, accuracy and exactitude. Our high-resolution pre-press equipment releases every pantone with the exact colour density that meets modern demands of any Organisation. We provide services with speed and accuracy."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                className: "mb-4",
+                children: "Our professionals have identified certain needs in the export and food processing sector. These needs are graphic design, image setter, offset printing and production of primary packaging and skillets to support the overall business objectives in order to generate significant growth and superior stakeholders\u2019 value."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                className: "print_shop-section-title",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h5", {
+                  className: "mt-4",
+                  children: " MARKET POSITION "
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  className: "mb-4",
+                  children: "The Pre-Press and Press (Printing) industry in Ghana is not very structured and this makes it very difficult to give exact market share as pertains to other industries. Looking at our activities and the number of customers we serve we can say we have a sizeable proportion of the total market share."
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                className: "print_shop-section-title",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h5", {
+                  className: "mt-4",
+                  children: " CUSTOMER RELATIONSHIP MANAGEMENT "
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+                  className: "mb-4",
+                  children: "MORK IMPRESSIONS will provide a dedicated and accountable Client Service Person to ensure that your print needs are fully met."
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                className: "print_shop-section-title",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h5", {
+                  className: "mt-4",
+                  children: " COMPETITIVE ADVANTAGE "
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+                  className: "mb-4 pl-1",
+                  children: ["\u2022 Uncomprimising Quality ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "\u2022 Timely deliveries ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), "\u2022 Competitive Prices"]
+                })]
               })]
             })
           })]

@@ -6,14 +6,7 @@ export default function About() {
         <>
             <Nav />
             {/*==================================================*/}
-            {/* End print shop Main Menu 
-             Large graphics and designs for billboards, 
-             advertisment on cars or buses etc.
-             We print onto products as part of a
-              manufacturing process which adds a significant value to products.
-              A high-quality color printing for a professional-quality prints.
-            
-            */}
+
             {/*==================================================*/}
             {/*==================================================*/}
             {/* Start print shop breatcam section  */}
@@ -61,34 +54,64 @@ export default function About() {
                         </div>
                         <div className="col-lg-6 col-md-6 pl-35" style={{ paddingLeft: "5rem" }}>
                             <div className="print_shop-section-title">
-                                <h5> ABOUT OUR PRINTING SERVICES </h5>
-                                <p>
+                                <h5> ABOUT OUR PRINTING SERVICE </h5>
+                                <div className="mb-4">
+
                                     We are a Printing Press incorporated in Ghana,
                                     with a state of the art Digital and Offset printing machines.
-                                    Our company was established in 2005 out of a passionate desire 
+                                    Our company was established in 2005 out of a passionate desire
                                     and commitment to undertake General printing and primary packaging.
-                                    <br />
-                                   
+                                </div>
+                                <div className="mb-4">
+
                                     We produce to precision, accuracy and exactitude. Our high-resolution
                                     pre-press equipment releases every pantone with the exact colour density
                                     that meets modern demands of any Organisation. We provide services with
                                     speed and accuracy.
-                                    <br />
-                                     Our professionals have identified certain
+                                </div>
+                                <div className="mb-4">
+                                    Our professionals have identified certain
                                     needs in the export and food processing sector. These needs are
                                     graphic design, image setter, offset printing and production of
                                     primary packaging and skillets to support the overall business
                                     objectives in order to generate significant growth and superior
                                     stakeholders’ value.
 
-                                </p>
-                                
+                                </div>
+                                <div className="print_shop-section-title">
+                                    <h5 className="mt-4"> MARKET POSITION </h5>
+                                    <div className="mb-4">
+                                        The Pre-Press and Press (Printing) industry in Ghana is
+                                        not very structured and this makes it very difficult to give
+                                        exact market share as pertains to other industries. Looking at our
+                                        activities and the number of customers we serve we can say we have a
+                                        sizeable proportion of the total market share.
+                                    </div>
+                                </div>
+                                <div className="print_shop-section-title">
+                                    <h5 className="mt-4"> CUSTOMER RELATIONSHIP MANAGEMENT </h5>
+                                    <div className="mb-4">
+                                        MORK IMPRESSIONS will provide a dedicated and accountable Client
+                                        Service
+                                        Person to ensure that your print needs are fully met.
+                                    </div>
+                                </div>
+                                <div className="print_shop-section-title">
+                                    <h5 className="mt-4"> COMPETITIVE ADVANTAGE </h5>
+                                    <div className="mb-4 pl-1">
+                                        •	Uncomprimising Quality <br />
+                                        •	Timely deliveries <br />
+                                        •	Competitive Prices
+
+                                    </div>
+                                </div>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>
             </div>
+
             {/*==================================================*/}
             {/* End print shop About Section  */}
             {/*==================================================*/}
@@ -109,7 +132,7 @@ export default function About() {
                                         {" "}
                                         Creative  <span> Team </span>{" "}
                                     </h1>
-                                   
+
                                 </div>
                             </div>
                             {/* service shape */}
