@@ -78,7 +78,7 @@ export default function Services() {
                             <img src="template/assets/images/resource/ball2.png" alt="" />
                         </div>
                     </div>
-                    <Modal open={open1} onClose={() => setOpen1(false)} center>
+                    {/* <Modal open={open1} onClose={() => setOpen1(false)} center>
                         <div className="row">
                             <div className="col ">
                                 <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
@@ -105,8 +105,8 @@ export default function Services() {
 
                             </div>
                         </div>
-                    </Modal>
-                    <Modal open={open2} onClose={() => setOpen2(false)} center>
+                    </Modal> */}
+                    {/* <Modal open={open2} onClose={() => setOpen2(false)} center>
                         <div className="row">
                             <div className="col ">
                                 <img src="template/assets/images/slider/hero-bg.jpg" alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
@@ -301,13 +301,15 @@ export default function Services() {
 
                             </div>
                         </div>
-                    </Modal>
+                    </Modal> */}
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
 
-                                <div className="service-thumb" onClick={() => setOpen1(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen1(true)}
+                                >
                                     <img src="template/assets/images/mork/bg1.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
@@ -332,7 +334,9 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb" onClick={() => setOpen2(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen2(true)}
+                                >
                                     <img src="template/assets/images/mork/ip.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
@@ -358,7 +362,9 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb" onClick={() => setOpen3(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen3(true)}
+                                >
                                     <img src="template/assets/images/mork/il.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
@@ -371,7 +377,9 @@ export default function Services() {
                                     </div>
                                 </div>
                                 {/* service content */}
-                                <div className="service-content" style={{ height: "13rem" }}>
+                                <div className="service-content" 
+                                // style={{ height: "13rem" }}
+                                >
                                     <h3> Industrial Lamination </h3>
                                     <p>
                                         {" "}
@@ -383,7 +391,9 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb" onClick={() => setOpen4(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen4(true)}
+                                >
                                     <img src="template/assets/images/mork/color.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper" >
@@ -408,7 +418,9 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb" onClick={() => setOpen5(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen5(true)}
+                                >
                                     <img src="template/assets/images/mork/grdsn.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
@@ -432,7 +444,9 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb" onClick={() => setOpen6(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen6(true)}
+                                >
                                     <img src="template/assets/images/mork/cala.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
@@ -459,7 +473,9 @@ export default function Services() {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-service-box2">
                                 {/* service thumb */}
-                                <div className="service-thumb" onClick={() => setOpen7(true)}>
+                                <div className="service-thumb" 
+                                // onClick={() => setOpen7(true)}
+                                >
                                     <img src="template/assets/images/mork/mag.jpg" alt="" style={{ width: "100%", height: "15rem" }} />
                                     {/* port content */}
                                     <div className="port-content upper">
