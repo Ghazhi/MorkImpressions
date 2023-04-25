@@ -164,11 +164,11 @@ export default function About() {
                                         <div className="team-content white">
                                             {/* team title */}
                                             <div className="team-title">
-                                                <h4>Ms. Jahanara Alam</h4>
+                                                <h4> Emmamunel Mork </h4>
                                             </div>
                                             {/* team text */}
                                             <div className="team-text">
-                                                <p> Project Manager </p>
+                                                <p> CEO </p>
                                             </div>
                                             {/* team social list */}
                                             <div className="team-social-list">
@@ -210,11 +210,11 @@ export default function About() {
                                         <div className="team-content white">
                                             {/* team title */}
                                             <div className="team-title">
-                                                <h4> Md. Al-Amin Hossain </h4>
+                                                <h4> Sheila Mork  </h4>
                                             </div>
                                             {/* team text */}
                                             <div className="team-text">
-                                                <p> Graphic Designer </p>
+                                                <p> Secretary </p>
                                             </div>
                                             {/* team social list */}
                                             <div className="team-social-list">
@@ -256,11 +256,11 @@ export default function About() {
                                         <div className="team-content white">
                                             {/* team title */}
                                             <div className="team-title">
-                                                <h4> Sidratul Muntaha </h4>
+                                                <h4> David Roy Quarshie  </h4>
                                             </div>
                                             {/* team text */}
                                             <div className="team-text">
-                                                <p> Web Developer </p>
+                                                <p> Production Manager </p>
                                             </div>
                                             {/* team social list */}
                                             <div className="team-social-list">
@@ -302,11 +302,11 @@ export default function About() {
                                         <div className="team-content white">
                                             {/* team title */}
                                             <div className="team-title">
-                                                <h4>Md. Anowar Hossen </h4>
+                                                <h4> Rita Yiborku </h4>
                                             </div>
                                             {/* team text */}
                                             <div className="team-text">
-                                                <p> CEO &amp; Founder </p>
+                                                <p> Client Services </p>
                                             </div>
                                             {/* team social list */}
                                             <div className="team-social-list">

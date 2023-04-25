@@ -55,7 +55,7 @@ export default function Portfolio() {
                                 <h5> CASE STUDIES </h5>
                                 <h1>
                                     {" "}
-                                    We Serve the Best Works. View Case <span>Studies</span>
+                                    We Serve the Best Works. View Case Our <span>Studies</span>
                                 </h1>
                             </div>
                         </div>
@@ -67,34 +67,36 @@ export default function Portfolio() {
                                             {" "}
                                             All items{" "}
                                         </li>
-                                        <li data-filter=".physics"> Shop </li>
-                                        <li data-filter=".chemistry"> T-Shart </li>
-                                        <li data-filter=".math"> Print </li>
+                                        <li data-filter=".branding"> Branding </li>
+                                        <li data-filter=".tombler">Tombler Press </li>
+                                        <li data-filter=".ond"> Offset & Digital Print </li>
+                                        <li data-filter=".dtf">DTF, EMBROIDERY AND SCREEN PRINT  </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="row image_load">
-                        <div className="col-lg-4 col-md-6 grid-item physics english">
+                        {/* branding */}
+                        <div className="col-lg-4 col-md-6 grid-item  branding">
                             <div className="case-study-single-box">
                                 <div className="case-study-thumb2">
                                     {/* port content */}
                                     <div className="port-content">
                                         <h5>
-                                            <a href="shop.html">Silk-screen printing</a>
+                                            <a href="shop.html">Branding</a>
                                         </h5>
                                         <a href="shop-2.html">
                                             <i className="bi bi-arrow-right" />
                                         </a>
                                     </div>
-                                    <img src="template/assets/images/resource/port1.jpg" alt="" />
+                                    <img src="template/assets/images/portfolio/branding/brnd.jpg" alt="" />
                                     {/* port icon */}
                                     <div className="single_portfolio_icon">
                                         <a
                                             className="portfolio-icon venobox vbox-item"
                                             data-gall="myportfolio"
-                                            href="template/assets/images/resource/port1.jpg"
+                                            href="template/assets/images/portfolio/branding/brnd.jpg"
                                         >
                                             <i className="bi bi-card-image" />
                                         </a>
@@ -102,16 +104,17 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 grid-item physics chemistry math">
+                        {/* tombler */}
+                        <div className="col-lg-4 col-md-6 grid-item tombler">
                             <div className="case-study-single-box">
                                 <div className="case-study-thumb2">
-                                    <img src="template/assets/images/resource/port2.jpg" alt="" />
+                                    <img src="template/assets/images/portfolio/tombler/tombler1.jpg" alt="" />
                                     {/* port icon */}
                                     <div className="single_portfolio_icon">
                                         <a
                                             className="portfolio-icon venobox vbox-item"
                                             data-gall="myportfolio"
-                                            href="template/assets/images/resource/port2.jpg"
+                                            href="template/assets/images/portfolio/tombler/tombler1.jpg"
                                         >
                                             <i className="bi bi-card-image" />
                                         </a>
@@ -119,33 +122,7 @@ export default function Portfolio() {
                                     {/* port content */}
                                     <div className="port-content">
                                         <h5>
-                                            <a href="shop.html">T- Shirt Design Service</a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 grid-item chemistry english">
-                            <div className="case-study-single-box">
-                                <div className="case-study-thumb2">
-                                    <img src="template/assets/images/resource/port3.jpg" alt="" />
-                                    {/* port icon */}
-                                    <div className="single_portfolio_icon">
-                                        <a
-                                            className="portfolio-icon venobox vbox-item"
-                                            data-gall="myportfolio"
-                                            href="template/assets/images/resource/port3.jpg"
-                                        >
-                                            <i className="bi bi-card-image" />
-                                        </a>
-                                    </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> Shoping Bag </a>
+                                            <a href="shop.html">Tombler Press</a>
                                         </h5>
                                         <a href="shop-2.html">
                                             <i className="bi bi-arrow-right" />
@@ -154,16 +131,16 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 grid-item math english">
+                        <div className="col-lg-4 col-md-6 grid-item tombler">
                             <div className="case-study-single-box">
                                 <div className="case-study-thumb2">
-                                    <img src="template/assets/images/resource/port4.jpg" alt="" />
+                                    <img src="template/assets/images/portfolio/tombler/tombler2.jpg" alt="" />
                                     {/* port icon */}
                                     <div className="single_portfolio_icon">
                                         <a
                                             className="portfolio-icon venobox vbox-item"
                                             data-gall="myportfolio"
-                                            href="template/assets/images/resource/port4.jpg"
+                                            href="template/assets/images/portfolio/tombler/tombler2.jpg"
                                         >
                                             <i className="bi bi-card-image" />
                                         </a>
@@ -171,7 +148,7 @@ export default function Portfolio() {
                                     {/* port content */}
                                     <div className="port-content">
                                         <h5>
-                                            <a href="shop.html"> Shoping mug </a>
+                                            <a href="shop.html">Mug</a>
                                         </h5>
                                         <a href="shop-2.html">
                                             <i className="bi bi-arrow-right" />
@@ -180,16 +157,17 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 grid-item math physics">
+                        {/* offset */}
+                        <div className="col-lg-4 col-md-6 grid-item ond">
                             <div className="case-study-single-box">
                                 <div className="case-study-thumb2">
-                                    <img src="template/assets/images/resource/port5.jpg" alt="" />
+                                    <img src="template/assets/images/portfolio/offset/off&digi1.jpg" alt="" />
                                     {/* port icon */}
                                     <div className="single_portfolio_icon">
                                         <a
                                             className="portfolio-icon venobox vbox-item"
                                             data-gall="myportfolio"
-                                            href="template/assets/images/resource/port5.jpg"
+                                            href="template/assets/images/portfolio/offset/off&digi1.jpg"
                                         >
                                             <i className="bi bi-card-image" />
                                         </a>
@@ -197,7 +175,7 @@ export default function Portfolio() {
                                     {/* port content */}
                                     <div className="port-content">
                                         <h5>
-                                            <a href="shop.html"> Printing Service </a>
+                                            <a href="shop.html"> Offset Print</a>
                                         </h5>
                                         <a href="shop-2.html">
                                             <i className="bi bi-arrow-right" />
@@ -206,16 +184,16 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 grid-item chemistry physics">
+                        <div className="col-lg-4 col-md-6 grid-item ond">
                             <div className="case-study-single-box">
                                 <div className="case-study-thumb2">
-                                    <img src="template/assets/images/resource/port3.jpg" alt="" />
+                                    <img src="template/assets/images/portfolio/offset/off&digi2.jpg" alt="" />
                                     {/* port icon */}
                                     <div className="single_portfolio_icon">
                                         <a
                                             className="portfolio-icon venobox vbox-item"
                                             data-gall="myportfolio"
-                                            href="template/assets/images/resource/port3.jpg"
+                                            href="template/assets/images/portfolio/offset/off&digi2.jpg"
                                         >
                                             <i className="bi bi-card-image" />
                                         </a>
@@ -223,7 +201,295 @@ export default function Portfolio() {
                                     {/* port content */}
                                     <div className="port-content">
                                         <h5>
-                                            <a href="shop.html"> Shoping Bag </a>
+                                            <a href="shop.html"> Digital Print</a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          {/* digital printing */}
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+
+                                    <img src="template\assets\images\portfolio\dtf\dtf1.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf1.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf2.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf2.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html">  DTF, Embroidery and Screen Print   </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf3.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf3.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html">  DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf4.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf4.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html">  DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf5.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf5.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf6.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf6.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf7.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf7.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html"> DTF, Embroidery and Screen Print   </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf8.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf8.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf9.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf9.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html">  DTF, Embroidery and Screen Print   </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf10.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf10.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html">  DTF, Embroidery and Screen Print  </a>
+                                        </h5>
+                                        <a href="shop-2.html">
+                                            <i className="bi bi-arrow-right" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 grid-item dtf">
+                            <div className="case-study-single-box">
+                                <div className="case-study-thumb2">
+                                    <img src="template\assets\images\portfolio\dtf\dtf11.jpg" alt="" />
+                                    {/* port icon */}
+                                    <div className="single_portfolio_icon">
+                                        <a
+                                            className="portfolio-icon venobox vbox-item"
+                                            data-gall="myportfolio"
+                                            href="template\assets\images\portfolio\dtf\dtf11.jpg"
+                                        >
+                                            <i className="bi bi-card-image" />
+                                        </a>
+                                    </div>
+                                    {/* port content */}
+                                    <div className="port-content">
+                                        <h5>
+                                            <a href="shop.html">  DTF, Embroidery and Screen Print   </a>
                                         </h5>
                                         <a href="shop-2.html">
                                             <i className="bi bi-arrow-right" />
@@ -235,7 +501,7 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
-            
+
 
             {/*==================================================*/}
             {/* End itsoft case study Area */}
