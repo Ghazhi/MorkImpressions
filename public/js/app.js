@@ -2677,7 +2677,7 @@ function About() {
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
                       className: "team-title",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h4", {
-                        children: "Mr. Emmamunel Mork "
+                        children: " Emmamunel Mork "
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
                       className: "team-text",
@@ -3568,7 +3568,11 @@ function Welcome() {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
               className: "item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
-                src: "template/assets/images/resource/ports2.jpg",
+                src: "template\\assets\\images\\portfolio\\tombler\\tombler4.jpg",
+                style: {
+                  width: "40rem",
+                  height: "20rem"
+                },
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
                 className: "port-content",
@@ -3587,7 +3591,10 @@ function Welcome() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
               className: "item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
-                src: "template/assets/images/resource/ports3.jpg",
+                src: "template\\assets\\images\\portfolio\\branding\\brnd.jpg",
+                style: {
+                  width: "20rem"
+                },
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
                 className: "port-content",
@@ -3606,7 +3613,10 @@ function Welcome() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
               className: "item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
-                src: "template/assets/images/resource/ports4.jpg",
+                src: "template\\assets\\images\\portfolio\\dtf\\dtf2.jpg",
+                style: {
+                  width: "20rem"
+                },
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
                 className: "port-content",
@@ -3625,7 +3635,11 @@ function Welcome() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
               className: "item",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
-                src: "template/assets/images/resource/ports1.jpg",
+                src: "template\\assets\\images\\portfolio\\tombler\\tombler3.jpg",
+                style: {
+                  width: "40rem",
+                  height: "45rem"
+                },
                 alt: ""
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
                 className: "port-content",
