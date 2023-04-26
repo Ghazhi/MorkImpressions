@@ -1,5 +1,7 @@
-export default function Footer () {
-    return ( 
+import { Link } from "@inertiajs/inertia-react";
+
+export default function Footer() {
+    return (
         <>
             <div className="footer-section">
                 <div className="container">
@@ -9,18 +11,15 @@ export default function Footer () {
                                 {/* print logo */}
                                 <div className="print-logo">
                                     <a className="logo_img" href="index.html" title="morkimpression">
-                                        <img src="assets/images/mork/morkLogo.png" alt="" />
+                                        <img src="template/assets/images/mork/mk.png" alt="morkimpression" style={{ width: "10rem" }} />
                                     </a>
                                 </div>
                                 {/* footer desc */}
                                 <div className="company-desc-info">
-                                    <p>
-                                        Curabitur vennatis finibus nte et magna eu ve Aliuam puus seim
-                                        rhoncus bibendum,
-                                    </p>
+                                <span style={{fontSize:"12px"}}>Quality Digital & Offset Printing Company</span>
                                 </div>
                                 {/* company social info */}
-                                <div className="company-social-info">
+                                <div className="company-social-info pt-4">
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -37,11 +36,6 @@ export default function Footer () {
                                                 <i className="fab fa-linkedin-in" />
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-pinterest-p" />
-                                            </a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -54,22 +48,22 @@ export default function Footer () {
                                     <ul className="footer-widget-list">
 
                                         <li>
-                                            <a href="#">
+                                            <Link href="about">
                                                 {" "}
                                                 <i className="bi bi-arrow-right" /> About Us
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <Link href="services">
                                                 {" "}
                                                 <i className="bi bi-arrow-right" /> Services
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <Link href="portfolio">
                                                 {" "}
                                                 <i className="bi bi-arrow-right" /> Portfolio
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -81,30 +75,30 @@ export default function Footer () {
                                 <h4 className="widget-title"> Useful Links </h4>
                                 <div className="menu-quick-link-content">
                                     <ul className="footer-widget-list">
-                                        
+
                                         <li>
-                                            <a href="#">
+                                            <Link href="services">
                                                 {" "}
                                                 <i className="bi bi-arrow-right" />Industrial Lamination
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <Link href="services">
                                                 {" "}
                                                 <i className="bi bi-arrow-right" /> Graphic Design
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <Link href="services">
                                                 {" "}
                                                 <i className="bi bi-arrow-right" /> Offset Printing
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <Link href="services">
                                                 {" "}
-                                                <i className="bi bi-arrow-right" /> T-Shart printing
-                                            </a>
+                                                <i className="bi bi-arrow-right" /> Color Seperation
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -113,20 +107,21 @@ export default function Footer () {
                         <div className="col-lg-3 col-md-6">
                             <div className="menu-quick-link-contact">
                                 {/* widget title */}
-                                <h4 className="widget-title"> Contact Us </h4>
+                                <h4 className="widget-title"> Contact Us </h4> 
                                 {/* company contact info */}
                                 <div className="company-contact-info">
                                     <p>
                                         {" "}
-                                        <i className="bi bi-telephone" /> Phone: 1111 11 11{" "}
+                                        <i className="bi bi-telephone" /> +233 244 372 598<br /> +233 302 316 441
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-envelope-fill" /> Email: morkimpression@gmail{" "}
+                                        <i className="bi bi-envelope-fill" /> info@morkimpression.com{" "}
                                     </p>
                                     <p>
                                         {" "}
-                                        <i className="bi bi-geo-alt-fill" /> Accra Ghana
+                                        <i className="bi bi-geo-alt-fill" /> 
+                                        Mamprobi, A1161/3 Kpakpo, Brimah Street, Accra Ghana
                                     </p>
                                 </div>
                             </div>
@@ -163,7 +158,7 @@ export default function Footer () {
                                 <p> Copyright 2023 @ Mork Impressions. All rights reserved.</p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -185,6 +180,6 @@ export default function Footer () {
                 </div>
             </div>
         </>
-     );
+    );
 }
 

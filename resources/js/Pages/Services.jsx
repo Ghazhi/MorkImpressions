@@ -52,7 +52,7 @@ export default function Services() {
                 <div className="container">
                     <div className="row service-bg">
                         <div className="col-lg-12">
-                            <div className="print_shop-section-title text-center">
+                            <div className="print_shop-section-title text-center pb-4">
                                 <h5> WE ARE Professional </h5>
                                 <h1> Awesome Service For Printing</h1>
                                 <h1>
@@ -422,11 +422,9 @@ export default function Services() {
                                 </div>
                                 {/* service content */}
                                 <div className="service-content" style={{ height: "13rem" }}>
-                                    <h3> Graphic Designing </h3>
+                                    <h3> Graphic Design </h3>
                                     <p>
-                                        {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                     Creative, innovative and communicative designs for your events and prints.
                                     </p>
                                 </div>
                             </div>
@@ -451,8 +449,9 @@ export default function Services() {
                                     <h3> Colour Separation  </h3>
                                     <p>
                                         {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                        Separating a picture by colors in order to make negatives and plates
+                                         for color printing. 
+                                        {" "}
                                     </p>
                                 </div>
                             </div>
@@ -476,9 +475,8 @@ export default function Services() {
                                 <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Offset Press </h3>
                                     <p>
-                                        {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                    We offer mass-production print on metal plates, transferred to rubber blankets or 
+                                    rollers and then to the print media.
                                     </p>
                                 </div>
                             </div>
@@ -502,9 +500,7 @@ export default function Services() {
                                 <div className="service-content" style={{ height: "13rem" }}>
                                     <h3> Security Printing </h3>
                                     <p>
-                                        {" "}
-                                        Professionaly conomically souf of printkin services resource
-                                        sucking services your business.{" "}
+                                    Cheques, passports, security tapes, stock certificates, postage stamps and identity cards.
                                     </p>
                                 </div>
                             </div>

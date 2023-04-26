@@ -51,7 +51,6 @@ function Welcome() {
   )
   return (
     <>
-
       <Nav />
       <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">
@@ -100,7 +99,7 @@ function Welcome() {
                     <img src="template/assets/images/slider/hero-shape2.png" alt="" />
                     {/* shape title */}
                     <div className="shape-title">
-                      <h2 className="">Mork Impressions </h2>
+                      <h2 className="">Mork Impression </h2>
                       {/* <h3>Company</h3> */}
                     </div>
                   </div>
@@ -157,7 +156,7 @@ function Welcome() {
                     <img src="template/assets/images/slider/hero-shape2.png" alt="" />
                     {/* shape title */}
                     <div className="shape-title" style={{ top: "14rem" }}>
-                      <h2 className="">Mork Impressions </h2>
+                      <h2 className="">Mork Impression </h2>
                       {/* <h3>Company</h3> */}
                     </div>
                   </div>
@@ -261,8 +260,7 @@ function Welcome() {
                     <div className="about-item-content">
                       <h4> Industrial printing  </h4>
                       <p>
-                        {" "}
-                        services resource potentialities awesome services you.{" "}
+                      Magazines, Newspapers, Flyers, Books
                       </p>
                     </div>
                   </div>
@@ -275,8 +273,7 @@ function Welcome() {
                     <div className="about-item-content">
                       <h4> Commercial printing  </h4>
                       <p>
-                        {" "}
-                        services resource potentialities awesome services you.{" "}
+                      Business cards, Postcards, Brochures 
                       </p>
                     </div>
                   </div>
@@ -285,7 +282,7 @@ function Welcome() {
               {/* about check */}
               <div className="about-check">
                 <p>
-                  <i className="bi bi-check-lg" /> Large Format on Flexi, Transparent, SAV, etc
+                   <i className="bi bi-check-lg" /> Large Format on Flexi, Transparent, SAV, etc
                 </p>
               </div>
               {/* about check */}
@@ -347,11 +344,11 @@ function Welcome() {
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
-                      <a href="#"> Large Format Printing </a>
+                      <Link href="services"> Large Format Printing </Link>
                     </h5>
-                    <a href="shop.html">
+                    <Link href="services">
                       <i className="bi bi-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* service content */}
@@ -373,11 +370,11 @@ function Welcome() {
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
-                      <a href="shop.html"> Industrial & Commercial Print </a>
+                      <Link href="services"> Industrial & Commercial Print </Link>
                     </h5>
-                    <a href="shop.html">
+                    <Link href="services">
                       <i className="bi bi-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* service content */}
@@ -399,11 +396,11 @@ function Welcome() {
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
-                      <a href="shop.html"> Industrial Lamination  </a>
+                      <Link href="services"> Industrial Lamination  </Link>
                     </h5>
-                    <a href="shop.html">
+                    <Link href="services">
                       <i className="bi bi-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* service content */}
@@ -423,11 +420,11 @@ function Welcome() {
                   {/* port content */}
                   <div className="port-content upper">
                     <h5>
-                      <a href="shop.html"> Digital Colour Press </a>
+                      <Link href="services"> Digital Colour Press </Link>
                     </h5>
-                    <a href="shop.html">
+                    <Link href="services">
                       <i className="bi bi-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* service content */}
@@ -474,11 +471,11 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="/portfolio"> View More </a>
+                    <Link href="/portfolio"> View More </Link>
                   </h5>
-                  <a href="shop.html">
+                  <Link href="portfolio">
                     <i className="bi bi-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="item">
@@ -486,11 +483,11 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="/portfolio"> View More </a>
+                    <Link href="/portfolio"> View More </Link>
                   </h5>
-                  <a href="shop.html">
+                  <Link href="portfolio">
                     <i className="bi bi-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="item">
@@ -498,11 +495,11 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="/portfolio"> View More </a>
+                    <Link href="/portfolio"> View More </Link>
                   </h5>
-                  <a href="/portfolio"> View More
+                  <Link href="portfolio">
                     <i className="bi bi-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="item">
@@ -510,11 +507,11 @@ function Welcome() {
                 {/* port content */}
                 <div className="port-content">
                   <h5>
-                    <a href="/portfolio"> View More </a>
+                    <Link href="/portfolio"> View More </Link>
                   </h5>
-                  <a href="/portfolio"> View More
+                  <Link href="portfolio">
                     <i className="bi bi-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -640,14 +637,6 @@ function Welcome() {
       {/* Start print shop Brand Section  */}
       {/*==================================================*/}
 
-      {/*==================================================*/}
-      {/* End print shop Brand Section */}
-      {/*==================================================*/}
-      {/*==================================================*/}
-      {/* Start print shop Team Section  */}
-      {/*==================================================*/}
-
-
       {/* partners */}
       <div className="brand-section" style={{ paddingBottom: "8rem" }}>
 
@@ -656,29 +645,66 @@ function Welcome() {
             <div className="brand-list owl-carousel">
               <div className="col-lg-12 ">
                 <div className="single-brand-thumb">
-                  <img src="template/assets/images/logos/01.jpg" style={{ height: "10rem" }} alt="" />
+                  <img src="template/assets/images/partners/1.jpg" style={{ height: "10rem" }} alt="" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="b">
-                  <img src="template/assets/images/logos/5.jpg" style={{ height: "10rem" }} alt="" />
+                  <img src="template/assets/images/partners/2.png" style={{ height: "10rem" }} alt="" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="single-brand-thumb">
-                  <img src="template/assets/images/logos/7.jpg" style={{ height: "10rem" }} alt="" />
+                  <img src="template/assets/images/partners/3.jpg" style={{ height: "10rem" }} alt="" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="single-brand-thumb">
-                  <img src="template/assets/images/logos/6.jpg" style={{ height: "10rem" }} alt="" />
+                  <img src="template/assets/images/partners/13.png" style={{ height: "10rem" }} alt="" />
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="single-brand-thumb">
-                  <img src="template/assets/images/logos/7.jpg" style={{ height: "10rem" }} alt="" />
+                  <img src="template/assets/images/partners/12.png" style={{ height: "10rem" }} alt="" />
                 </div>
               </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/6.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/7.png" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/8.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/9.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/10.png" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/4.png" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="single-brand-thumb">
+                  <img src="template/assets/images/partners/5.jpg" style={{ height: "10rem" }} alt="" />
+                </div>
+              </div>
+             
+              
             </div>
           </div>
         </div>
@@ -768,18 +794,18 @@ function Welcome() {
       {/*==================================================*/}
       {/* Start print shop contact Section  */}
       {/*==================================================*/}
-      <div className="contact-section home-two" style={{ paddingTop: "5rem" }}>
+      <div className="contact-section home-two" >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               {/* contact thumb */}
               <div className="contact-thumb">
-                <img src="template/assets/images/mork/contact.jpg" style={{width:"100%", height:"38rem"}} alt="" />
+                <img src="template/assets/images/mork/contact.jpg" style={{width:"100%", height:"50rem"}} alt="" />
                 {/* contact shape */}
                
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 " style={{ paddingLeft: "5rem" }}>
+            <div className="col-lg-6 col-md-6 mx-auto">
               <div className="print_shop-section-title text-center">
                 <h1>
                   {" "}
