@@ -467,7 +467,8 @@ function Welcome() {
           <div className="row">
             <div className="portfolio-items-thumb">
               <div className="item">
-                <img src="template/assets/images/resource/ports2.jpg" alt="" />
+              <img src="template\assets\images\portfolio\tombler\tombler4.jpg" style={{width:"40rem",height:"20rem"}} alt="" />
+                
                 {/* port content */}
                 <div className="port-content">
                   <h5>
@@ -479,7 +480,8 @@ function Welcome() {
                 </div>
               </div>
               <div className="item">
-                <img src="template/assets/images/resource/ports3.jpg" alt="" />
+             
+              <img src="template\assets\images\portfolio\branding\brnd.jpg" style={{width:"20rem"}} alt="" />
                 {/* port content */}
                 <div className="port-content">
                   <h5>
@@ -491,7 +493,7 @@ function Welcome() {
                 </div>
               </div>
               <div className="item">
-                <img src="template/assets/images/resource/ports4.jpg" alt="" />
+              <img src="template\assets\images\portfolio\dtf\dtf2.jpg" style={{width:"20rem"}} alt="" />
                 {/* port content */}
                 <div className="port-content">
                   <h5>
@@ -503,7 +505,7 @@ function Welcome() {
                 </div>
               </div>
               <div className="item">
-                <img src="template/assets/images/resource/ports1.jpg" alt="" />
+              <img src="template\assets\images\portfolio\tombler\tombler3.jpg" style={{width:"40rem",height:"45rem"}} alt="" />
                 {/* port content */}
                 <div className="port-content">
                   <h5>
