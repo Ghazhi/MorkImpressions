@@ -112,16 +112,23 @@ export default function Footer() {
                                 <div className="company-contact-info">
                                     <p>
                                         {" "}
-                                        <i className="bi bi-telephone" /> +233 244 372 598<br /> +233 302 316 441
+                                        {/* <i className="bi bi-telephone" /> <br /> */}
+                                            030 2326 403<br />
+                                            030 2316 441<br />
+                                            030 2234 765<br />
+                                        233 244 372 598<br />
+                                        233 302 316 441
                                     </p>
+                                    {/* <p>
+                                        {" "}
+                                        <i className="bi bi-envelope-fill" /> 
+                                        mork@morkimpression.com{" "}<br />
+                                        sales@morkimpression.com
+                                    </p> */}
                                     <p>
                                         {" "}
-                                        <i className="bi bi-envelope-fill" /> info@morkimpression.com{" "}
-                                    </p>
-                                    <p>
-                                        {" "}
-                                        <i className="bi bi-geo-alt-fill" /> 
-                                        Mamprobi, A1161/3 Kpakpo, Brimah Street, Accra Ghana
+                                        {/* <i className="bi bi-geo-alt-fill" /> <br /> */}
+                                        Mamprobi, A1161/3, Do Adokwei Street, Accra Ghana
                                     </p>
                                 </div>
                             </div>
