@@ -82,14 +82,7 @@ export default function Portfolio() {
                             <div className="case-study-single-box">
                                 <div className="case-study-thumb2">
                                     {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">Branding</a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                    
                                     <img src="template/assets/images/portfolio/branding/brnd.jpg" alt="" />
                                     {/* port icon */}
                                     <div className="single_portfolio_icon">
@@ -120,14 +113,7 @@ export default function Portfolio() {
                                         </a>
                                     </div>
                                     {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">Tombler Press</a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -145,15 +131,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">Mug</a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -172,15 +150,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> Offset Print</a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -198,15 +168,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> Digital Print</a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -226,15 +188,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -252,15 +206,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">  DTF, Embroidery and Screen Print   </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -278,15 +224,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">  DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -304,15 +242,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">  DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -330,15 +260,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -356,15 +278,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -382,15 +296,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> DTF, Embroidery and Screen Print   </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -409,14 +315,7 @@ export default function Portfolio() {
                                         </a>
                                     </div>
                                     {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html"> DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -435,14 +334,7 @@ export default function Portfolio() {
                                         </a>
                                     </div>
                                     {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">  DTF, Embroidery and Screen Print   </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -460,15 +352,7 @@ export default function Portfolio() {
                                             <i className="bi bi-card-image" />
                                         </a>
                                     </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">  DTF, Embroidery and Screen Print  </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -477,24 +361,8 @@ export default function Portfolio() {
                                 <div className="case-study-thumb2">
                                     <img src="template\assets\images\portfolio\dtf\dtf11.jpg" alt="" />
                                     {/* port icon */}
-                                    <div className="single_portfolio_icon">
-                                        <a
-                                            className="portfolio-icon venobox vbox-item"
-                                            data-gall="myportfolio"
-                                            href="template\assets\images\portfolio\dtf\dtf11.jpg"
-                                        >
-                                            <i className="bi bi-card-image" />
-                                        </a>
-                                    </div>
-                                    {/* port content */}
-                                    <div className="port-content">
-                                        <h5>
-                                            <a href="shop.html">  DTF, Embroidery and Screen Print   </a>
-                                        </h5>
-                                        <a href="shop-2.html">
-                                            <i className="bi bi-arrow-right" />
-                                        </a>
-                                    </div>
+                                   
+                                   
                                 </div>
                             </div>
                         </div>

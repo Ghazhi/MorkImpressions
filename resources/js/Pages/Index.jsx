@@ -116,8 +116,8 @@ function Welcome() {
               <div className="row custom-hero-bg align-items-center">
                 <div className="col-lg-12">
                   <div className="custom-hero-content">
-                   {/* <h5> DIGITAL PRINTING COMPANY </h5> */}
-                   <h1> Quality Digital and  </h1>
+                    {/* <h5> DIGITAL PRINTING COMPANY </h5> */}
+                    <h1> Quality Digital and  </h1>
                     <h1> Offset Printing  </h1>
                     <h1>Company</h1>
                     <p>
@@ -189,7 +189,7 @@ function Welcome() {
                   {/* How Dose We <span>Works</span> */}
                 </h1>
                 <p>
-                 
+
                 </p>
               </div>
             </div>
@@ -260,7 +260,7 @@ function Welcome() {
                     <div className="about-item-content">
                       <h4> Industrial printing  </h4>
                       <p>
-                      Magazines, Newspapers, Flyers, Books
+                        Magazines, Newspapers, Flyers, Books
                       </p>
                     </div>
                   </div>
@@ -273,7 +273,7 @@ function Welcome() {
                     <div className="about-item-content">
                       <h4> Commercial printing  </h4>
                       <p>
-                      Business cards, Postcards, Brochures 
+                        Business cards, Postcards, Brochures
                       </p>
                     </div>
                   </div>
@@ -282,7 +282,7 @@ function Welcome() {
               {/* about check */}
               <div className="about-check">
                 <p>
-                   <i className="bi bi-check-lg" /> Large Format on Flexi, Transparent, SAV, etc
+                  <i className="bi bi-check-lg" /> Large Format on Flexi, Transparent, SAV, etc
                 </p>
               </div>
               {/* about check */}
@@ -407,7 +407,7 @@ function Welcome() {
                 <div className="service-content" style={{ height: "13rem" }}>
                   <h3> Industrial Lamination  </h3>
                   <p>
-                   Protect important documents with protective filming.
+                    Protect important documents with protective filming.
                   </p>
                 </div>
               </div>
@@ -464,59 +464,95 @@ function Welcome() {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="portfolio-items-thumb">
-              <div className="item">
-              <img src="template\assets\images\portfolio\tombler\tombler4.jpg" style={{width:"40rem",height:"20rem"}} alt="" />
-                
-                {/* port content */}
-                <div className="port-content">
-                  <h5>
-                    <Link href="/portfolio"> View More </Link>
-                  </h5>
-                  <Link href="portfolio">
-                    <i className="bi bi-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-              <div className="item">
-             
-              <img src="template\assets\images\portfolio\branding\brnd.jpg" style={{width:"20rem"}} alt="" />
-                {/* port content */}
-                <div className="port-content">
-                  <h5>
-                    <Link href="/portfolio"> View More </Link>
-                  </h5>
-                  <Link href="portfolio">
-                    <i className="bi bi-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-              <div className="item">
-              <img src="template\assets\images\portfolio\dtf\dtf2.jpg" style={{width:"20rem"}} alt="" />
-                {/* port content */}
-                <div className="port-content">
-                  <h5>
-                    <Link href="/portfolio"> View More </Link>
-                  </h5>
-                  <Link href="portfolio">
-                    <i className="bi bi-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-              <div className="item">
-              <img src="template\assets\images\portfolio\tombler\tombler3.jpg" style={{width:"40rem",height:"45rem"}} alt="" />
-                {/* port content */}
-                <div className="port-content">
-                  <h5>
-                    <Link href="/portfolio"> View More </Link>
-                  </h5>
-                  <Link href="portfolio">
-                    <i className="bi bi-arrow-right" />
-                  </Link>
+          <div className="row image_load">
+
+            <div className="col-lg-4 col-md-6 grid-item dtf">
+              <div className="case-study-single-box">
+                <div className="case-study-thumb2">
+                  <img src="template\assets\images\portfolio\branding\brnd.jpg" alt="" />
+                  {/* port content */}
+                  <div className="port-content">
+                    <h5>
+                      <Link href="portfolio">  View More  </Link>
+                    </h5>
+                    <Link href="portfolio">
+                      <i className="bi bi-arrow-right" />
+                    </Link>
+                  </div>
+
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 grid-item dtf">
+              <div className="case-study-single-box">
+                <div className="case-study-thumb2">
+                  <img src="template\assets\images\portfolio\dtf\dtf3.jpg" alt="" />
+
+                  {/* port content */}
+                  <div className="port-content">
+                    <h5>
+                      <Link href="portfolio">  View More  </Link>
+                    </h5>
+                    <Link href="portfolio">
+                      <i className="bi bi-arrow-right" />
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 grid-item dtf">
+              <div className="case-study-single-box">
+                <div className="case-study-thumb2">
+                  <img src="template\assets\images\portfolio\dtf\dtf4.jpg" alt="" />
+                  {/* port content */}
+                  <div className="port-content">
+                    <h5>
+                      <Link href="portfolio">  View More  </Link>
+                    </h5>
+                    <Link href="portfolio">
+                      <i className="bi bi-arrow-right" />
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 grid-item dtf">
+              <div className="case-study-single-box">
+                <div className="case-study-thumb2">
+                  <img src="template\assets\images\portfolio\dtf\dtf5.jpg" alt="" />
+                  {/* port content */}
+                  <div className="port-content">
+                    <h5>
+                      <Link href="portfolio">  View More  </Link>
+                    </h5>
+                    <Link href="portfolio">
+                      <i className="bi bi-arrow-right" />
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 grid-item dtf">
+              <div className="case-study-single-box">
+                <div className="case-study-thumb2">
+                  <img src="template\assets\images\portfolio\dtf\dtf6.jpg" alt="" />
+                  {/* port content */}
+                  <div className="port-content">
+                    <h5>
+                      <Link href="portfolio">  View More  </Link>
+                    </h5>
+                    <Link href="portfolio">
+                      <i className="bi bi-arrow-right" />
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -602,9 +638,9 @@ function Welcome() {
               </div>
               {/* End Accordion */}
             </div>
-            <div className="col-lg-6 col-md-6 pl-40">
+            <div className="col-lg-6 col-md-6 ">
               <div className="faq-thumb" >
-                <img src="template/assets/images/resource/post4.png" style={{ height: "35rem", width: "100%" }} alt="" />
+                <img src="template/assets/images/resource/post4.png"  alt="" />
               </div>
             </div>
             {/* faq shape */}
@@ -705,8 +741,8 @@ function Welcome() {
                   <img src="template/assets/images/partners/5.jpg" style={{ height: "10rem" }} alt="" />
                 </div>
               </div>
-             
-              
+
+
             </div>
           </div>
         </div>
@@ -802,9 +838,9 @@ function Welcome() {
             <div className="col-lg-6 col-md-6">
               {/* contact thumb */}
               <div className="contact-thumb">
-                <img src="template/assets/images/mork/contact.jpg" style={{width:"100%", height:"50rem"}} alt="" />
+                <img src="template/assets/images/mork/contact.jpg" style={{ width: "100%", height: "50rem" }} alt="" />
                 {/* contact shape */}
-               
+
               </div>
             </div>
             <div className="col-lg-6 col-md-6 mx-auto">
